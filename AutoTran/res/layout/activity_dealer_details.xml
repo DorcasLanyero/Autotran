@@ -1,0 +1,498 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maon_bg"
+    android:id="@+id/parentLayout"
+	>
+
+
+      <LinearLayout
+        android:id="@+id/lin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bar_bg"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:onClick="back"
+            android:src="@drawable/back_button" />
+
+        <TextView
+            android:id="@+id/ACTIVITY_TITLE"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="Dealer Information"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+	<com.cassens.autotran.views.CustomScrollView
+		android:id="@+id/dealerInfo"
+	    android:layout_width="match_parent"
+		android:layout_marginLeft="0dp"
+		android:paddingBottom="10dp"
+	    android:layout_height="0dp"
+		android:layout_below="@+id/lin_top"
+		android:layout_above="@+id/bottomArea"
+		android:fadeScrollbars="false"
+		android:scrollbarStyle="insideInset"
+		android:scrollbarThumbVertical="@drawable/scrollbar_thumb"
+		android:layout_margin="5px"
+		android:background="#eeeeee"
+	    >
+    <RelativeLayout
+        android:id="@+id/rel_dealer_contact"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+		<LinearLayout
+			android:id="@+id/linear_addr"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_marginBottom="20dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/txt_dealer_addr"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:padding="2dp"
+				android:layout_marginBottom="0dp"
+				android:text="dealer name\ndealer address line 1\ndealer address line 2"
+				android:textColor="@color/black"
+				android:textSize="@dimen/txt_size_body" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear_contact"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/linear_addr"
+			android:layout_marginTop="10dp"
+			android:gravity="top"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="left"
+				android:padding="2dp"
+				android:text="Contact:"
+				android:textColor="@color/black"
+				android:textSize="@dimen/txt_size_header" />
+
+			<TextView
+				android:id="@+id/txt_dealer_contact"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="left"
+				android:padding="2dp"
+				android:textColor="@color/black"
+				android:textSize="@dimen/txt_size_body" />
+		</LinearLayout>
+
+		<LinearLayout
+            android:id="@+id/linear_phone"
+	        android:layout_below="@id/linear_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="horizontal"
+	        android:layout_marginTop="10dp"
+            >
+
+            <TextView
+				android:id="@+id/txt_dealer_phone_label"
+				android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="2dp"
+                android:text="Phone: "
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size_header" />
+
+            <TextView
+				android:id="@+id/txt_dealer_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size_body" />
+		</LinearLayout>
+
+		<LinearLayout
+            android:id="@+id/linear_flags1"
+	        android:layout_below="@id/linear_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="horizontal" >
+
+            <TextView
+				android:id="@+id/txt_dealer_afthr_label"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:gravity="left"
+            	android:padding="2dp"
+            	android:text="After Hours Delivery:"
+            	android:textColor="@color/black"
+            	android:textSize="@dimen/txt_size_header" />
+
+            <TextView
+				android:id="@+id/txt_dealer_afthr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="2dp"
+                android:textColor="@color/lite_red"
+                android:textSize="@dimen/txt_size_body" />
+        </LinearLayout>
+		<LinearLayout
+            android:id="@+id/linear_flags2"
+	        android:layout_below="@id/linear_flags1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="horizontal" >
+
+            <TextView
+				android:id="@+id/txt_dealer_mfg_label"
+				android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:gravity="left"
+            	android:padding="2dp"
+            	android:text="Manufacturer:"
+            	android:textColor="@color/black"
+            	android:textSize="@dimen/txt_size_header" />
+
+            <TextView
+				android:id="@+id/txt_dealer_mfg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size_body" />
+        </LinearLayout>
+
+			<LinearLayout
+            android:id="@+id/linear_flags3"
+	        android:layout_below="@id/linear_flags2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="2dp"
+                android:text="Status:"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size_header" />
+
+            <TextView
+				android:id="@+id/txt_dealer_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_size_body" />
+		</LinearLayout>
+
+		<TextView
+			android:id="@+id/txt_hours"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/linear_flags3"
+			android:gravity="left"
+			android:padding="2dp"
+			android:text="Delivery Hours:"
+			android:textColor="@color/black"
+			android:textSize="@dimen/txt_size_header" />
+
+		<LinearLayout
+            android:id="@+id/linear_hours"
+	        android:layout_below="@+id/txt_hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+			android:layout_marginLeft="10dp"
+            android:gravity="top"
+            android:orientation="vertical" >
+
+
+	            <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="top"
+		            android:orientation="horizontal" >
+		            <TextView
+		                android:layout_width="40sp"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+		                android:padding="4dp"
+		                android:text="Mon"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+		            <TextView
+						android:id="@+id/txt_hrs_mon"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+		                android:padding="2dp"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+	            </LinearLayout>
+
+          		<LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="top"
+		            android:orientation="horizontal" >
+		            <TextView
+		                android:layout_width="40sp"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+		                android:padding="4dp"
+		                android:text="Tue"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+		            <TextView
+						android:id="@+id/txt_hrs_tue"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+						android:padding="2dp"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+            	</LinearLayout>
+
+	            <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="top"
+		            android:orientation="horizontal" >
+		            <TextView
+		                android:layout_width="40sp"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+		                android:padding="4dp"
+		                android:text="Wed"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+		            <TextView
+						android:id="@+id/txt_hrs_wed"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+		                android:padding="2dp"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+	            </LinearLayout>
+
+	            <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="top"
+		            android:orientation="horizontal" >
+		            <TextView
+		                android:layout_width="40sp"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+		                android:padding="4dp"
+		                android:text="Thu"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+		            <TextView
+						android:id="@+id/txt_hrs_thu"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+		                android:padding="2dp"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+            	</LinearLayout>
+
+	            <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="top"
+		            android:orientation="horizontal" >
+		            <TextView
+		                android:layout_width="40sp"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+		                android:padding="4dp"
+		                android:text="Fri"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+		            <TextView
+						android:id="@+id/txt_hrs_fri"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+		                android:padding="2dp"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+            	</LinearLayout>
+
+	            <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="top"
+		            android:orientation="horizontal" >
+		            <TextView
+		                android:layout_width="40sp"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+		                android:padding="4dp"
+		                android:text="Sat"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+		            <TextView
+						android:id="@+id/txt_hrs_sat"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+		                android:padding="2dp"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+            	</LinearLayout>
+
+	            <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="top"
+		            android:orientation="horizontal" >
+		            <TextView
+		                android:layout_width="40sp"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+		                android:padding="4dp"
+		                android:text="Sun"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+		            <TextView
+						android:id="@+id/txt_hrs_sun"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:gravity="right"
+		                android:padding="2dp"
+		                android:textColor="@color/black"
+		                android:textSize="@dimen/txt_size_body" />
+            	</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear_comments"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/linear_hours"
+			android:gravity="top"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/txt_dealer_comments_label"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="left"
+				android:padding="2dp"
+				android:text="Comments:"
+				android:textColor="@color/black"
+				android:textSize="@dimen/txt_size_header" />
+
+			<TextView
+				android:id="@+id/txt_dealer_comments"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="0dp"
+				android:gravity="left"
+				android:textColor="@color/black"
+				android:textSize="@dimen/txt_size_body" />
+		</LinearLayout>
+
+		<!-- only inserted to prevent the comments from getting cut off in the scrollview -->
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/linear_comments"
+			android:text=" "/>
+
+    </RelativeLayout>
+    </com.cassens.autotran.views.CustomScrollView>
+
+	<TextView
+		android:id="@+id/moreText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Scroll for more"
+		android:gravity="center"
+		android:layout_above="@+id/bottomArea"
+		android:textColor="@color/black"
+		android:textAlignment="center"
+		android:visibility="invisible"/>
+
+	<LinearLayout
+		android:id="@+id/bottomArea"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		>
+		<LinearLayout
+			android:id="@+id/nav_buttons"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			>
+
+			<Button
+				android:id="@+id/previous"
+				android:layout_width="0dp"
+				android:layout_height="100dp"
+				android:layout_marginRight="10dp"
+				android:layout_weight="50"
+				android:background="@drawable/button_bg"
+				android:gravity="center"
+				android:textColor="@color/white"
+				android:textSize="15sp"
+				android:visibility="visible" />
+
+			<Button
+				android:id="@+id/next"
+				android:layout_width="0dp"
+				android:layout_height="100dp"
+				android:layout_weight="50"
+				android:background="@drawable/button_bg"
+				android:gravity="center"
+				android:textColor="@color/white"
+				android:textSize="15sp"
+				android:visibility="visible" />
+
+		</LinearLayout>
+	</LinearLayout>
+
+</RelativeLayout>

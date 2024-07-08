@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- WLI Software (Piccolo -->
+    <usb-device vendor-id="5824" product-id="1770"/>
+    <!--<usb-device vendor-id="1111" product-id="1111"/>-->
+    <!--<usb-device vendor-id="22564" product-id="6000"/>-->
+</resources>

@@ -1,0 +1,1134 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cassens.autotran.driver.prod"
+4    android:versionCode="3000000"
+5    android:versionName="3.0.0.0-dev" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:6:5-60
+11-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:6:19-57
+12    <uses-feature android:name="android.hardware.camera.autofocus" />
+12-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:7:5-70
+12-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:7:19-67
+13
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:9:5-76
+14-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:10:5-68
+15-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:10:22-66
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:11:5-65
+16-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:11:22-62
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:12:5-67
+17-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:12:22-64
+18    <uses-permission android:name="android.permission.NFC" />
+18-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:13:5-62
+18-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:13:22-59
+19    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+19-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:14:5-86
+19-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:14:22-83
+20    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+20-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:15:5-79
+20-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:15:22-76
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:16:5-68
+21-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:16:22-65
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:17:5-79
+22-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:17:22-76
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:18:5-81
+23-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:18:22-78
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:19:5-81
+24-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:19:22-78
+25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+25-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:20:5-79
+25-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:20:22-76
+26    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+26-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:21:5-85
+26-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:21:22-82
+27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+27-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:22:5-75
+27-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:22:22-72
+28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+28-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:23:5-80
+28-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:23:22-77
+29    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+29-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:18:5-81
+29-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:18:22-78
+30    <uses-permission android:name="android.permission.VIBRATE" />
+30-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:25:5-65
+30-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:25:22-63
+31    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+31-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:26:5-80
+31-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:26:22-78
+32    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+32-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:27:5-81
+32-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:27:22-79
+33    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+33-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:30:5-94
+33-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:30:22-91
+34    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+34-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:31:5-78
+34-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:31:22-75
+35
+36    <uses-feature android:name="android.hardware.usb.host" />
+36-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:33:5-62
+36-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:33:19-59
+37
+38    <uses-permission android:name="com.honeywell.decode.permission.DECODE" />
+38-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:35:5-78
+38-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:35:22-75
+39    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+39-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:5-77
+39-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:22-74
+40    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+40-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+40-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+41    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+41-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+41-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+42
+43    <application
+43-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:37:5-395:19
+44        android:name="com.cassens.autotran.AutoTranApplication"
+44-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:38:9-44
+45        android:allowBackup="false"
+45-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:39:9-36
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.6.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/be6959be07f563337def10b4dc2f5c22/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+47        android:debuggable="true"
+48        android:extractNativeLibs="false"
+49        android:icon="@drawable/ic_launcher_autotran"
+49-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:40:9-54
+50        android:label="@string/app_name"
+50-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:41:9-41
+51        android:largeHeap="true"
+51-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:43:9-33
+52        android:testOnly="true"
+53        android:theme="@android:style/Theme.Black.NoTitleBar"
+53-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:42:9-62
+54        android:usesCleartextTraffic="true" >
+54-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:44:9-44
+55        <activity android:name="com.cassens.autotran.activities.VinOCRActivity" />
+55-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:46:9-72
+55-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:46:19-60
+56
+57        <uses-library
+57-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:48:9-87
+58            android:name="org.apache.http.legacy"
+58-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:48:23-60
+59            android:required="false" />
+59-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:48:61-85
+60
+61        <activity
+61-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:50:9-62:20
+62            android:name="com.cassens.autotran.activities.UsbPermissionActivity"
+62-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:51:13-61
+63            android:exported="false"
+63-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:52:13-37
+64            android:launchMode="singleInstance" >
+64-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:53:13-48
+65            <intent-filter>
+65-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:54:13-57:29
+66                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+66-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:55:17-90
+66-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:55:25-87
+67                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+67-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:55:17-90
+67-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:55:25-87
+68            </intent-filter>
+69
+70            <meta-data
+70-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:59:13-61:57
+71                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+71-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:60:17-79
+72                android:resource="@xml/device_filter" />
+72-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:61:17-54
+73        </activity>
+74
+75        <provider
+76            android:name="androidx.core.content.FileProvider"
+76-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:65:13-62
+77            android:authorities="com.cassens.autotran.driver.prod.provider"
+77-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:66:13-60
+78            android:exported="false"
+78-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:67:13-37
+79            android:grantUriPermissions="true" >
+79-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:68:13-47
+80            <meta-data
+80-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:69:13-71:58
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:70:17-67
+82                android:resource="@xml/provider_paths" />
+82-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:71:17-55
+83        </provider>
+84
+85        <activity
+85-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:74:9-77:52
+86            android:name="com.cassens.autotran.activities.ErrorActivity"
+86-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:75:13-53
+87            android:exported="true"
+87-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:76:13-36
+88            android:screenOrientation="portrait" />
+88-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:77:13-49
+89        <activity
+89-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:78:9-87:20
+90            android:name="com.cassens.autotran.activities.SplashActivity"
+90-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:79:13-54
+91            android:exported="true"
+91-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:80:13-36
+92            android:screenOrientation="portrait" >
+92-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:81:13-49
+93            <intent-filter>
+93-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:82:13-86:29
+94                <action android:name="android.intent.action.MAIN" />
+94-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:83:17-69
+94-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:83:25-66
+95
+96                <category android:name="android.intent.category.LAUNCHER" />
+96-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:85:17-77
+96-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:85:27-74
+97            </intent-filter>
+98        </activity>
+99        <activity
+99-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:88:9-99:20
+100            android:name="com.cassens.autotran.activities.AdminActivity"
+100-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:89:13-53
+101            android:exported="true"
+101-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:90:13-36
+102            android:icon="@drawable/ic_launcher_autotran"
+102-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:91:13-58
+103            android:label="AutoTran Admin"
+103-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:92:13-43
+104            android:screenOrientation="portrait" >
+104-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:93:13-49
+105            <intent-filter>
+105-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:82:13-86:29
+106                <action android:name="android.intent.action.MAIN" />
+106-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:83:17-69
+106-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:83:25-66
+107
+108                <category android:name="android.intent.category.LAUNCHER" />
+108-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:85:17-77
+108-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:85:27-74
+109            </intent-filter>
+110        </activity>
+111        <activity
+111-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:100:9-102:51
+112            android:name="com.cassens.autotran.activities.LoginActivity"
+112-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:101:13-53
+113            android:screenOrientation="portrait" />
+113-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:102:13-49
+114        <activity
+114-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:103:9-105:52
+115            android:name="com.cassens.autotran.activities.DashboardActivity"
+115-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:104:13-57
+116            android:screenOrientation="portrait" />
+116-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:105:13-49
+117        <activity
+117-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:106:9-109:52
+118            android:name="com.cassens.autotran.activities.DeliveryVinInspectionActivity"
+118-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:107:13-69
+119            android:configChanges="uiMode"
+119-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:108:13-43
+120            android:screenOrientation="portrait" />
+120-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:109:13-49
+121        <activity
+121-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:110:9-113:52
+122            android:name="com.cassens.autotran.activities.PreloadActivity"
+122-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:111:13-55
+123            android:configChanges="uiMode"
+123-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:112:13-43
+124            android:screenOrientation="portrait" />
+124-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:113:13-49
+125        <activity
+125-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:114:9-117:52
+126            android:name="com.cassens.autotran.activities.DeliveryActivity"
+126-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:115:13-56
+127            android:configChanges="uiMode"
+127-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:116:13-43
+128            android:screenOrientation="portrait" />
+128-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:117:13-49
+129        <activity
+129-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:118:9-122:70
+130            android:name="com.cassens.autotran.activities.SupplementalNotesActivity"
+130-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:119:13-65
+131            android:configChanges="uiMode"
+131-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:120:13-43
+132            android:screenOrientation="portrait"
+132-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:121:13-49
+133            android:windowSoftInputMode="adjustResize|stateHidden" />
+133-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:122:13-67
+134        <activity
+134-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:123:9-125:52
+135            android:name="com.cassens.autotran.activities.DamageSummaryActivity"
+135-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:124:13-61
+136            android:screenOrientation="portrait" />
+136-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:125:13-49
+137        <activity
+137-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:126:9-129:52
+138            android:name="com.cassens.autotran.activities.VINInspectionActivity"
+138-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:127:13-61
+139            android:configChanges="uiMode"
+139-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:128:13-43
+140            android:screenOrientation="portrait" />
+140-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:129:13-49
+141        <activity
+141-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:130:9-132:52
+142            android:name="com.cassens.autotran.activities.ShuttleCreateLoadActivity"
+142-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:131:13-65
+143            android:screenOrientation="portrait" />
+143-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:132:13-49
+144        <activity
+144-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:133:9-135:52
+145            android:name="com.cassens.autotran.activities.ShuttleBuildLoadActivity"
+145-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:134:13-64
+146            android:screenOrientation="portrait" />
+146-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:135:13-49
+147        <activity
+147-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:136:9-138:52
+148            android:name="com.cassens.autotran.activities.ShuttleAddVinsActivity"
+148-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:137:13-62
+149            android:screenOrientation="portrait" />
+149-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:138:13-49
+150        <activity
+150-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:139:9-142:52
+151            android:name="com.cassens.autotran.activities.VINInventoryActivity"
+151-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:140:13-60
+152            android:configChanges="uiMode"
+152-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:141:13-43
+153            android:screenOrientation="portrait" />
+153-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:142:13-49
+154        <activity
+154-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:143:9-145:52
+155            android:name="com.cassens.autotran.activities.YardInventoryActivity"
+155-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:144:13-61
+156            android:screenOrientation="portrait" />
+156-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:145:13-49
+157        <activity
+157-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:146:9-148:52
+158            android:name="com.cassens.autotran.activities.YardEntryExitActivity"
+158-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:147:13-61
+159            android:screenOrientation="portrait" />
+159-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:148:13-49
+160        <activity
+160-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:149:9-151:52
+161            android:name="com.cassens.autotran.activities.ReceiveVehicleActivity"
+161-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:150:13-62
+162            android:screenOrientation="portrait" />
+162-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:151:13-49
+163        <activity
+163-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:152:9-154:52
+164            android:name="com.cassens.autotran.activities.PlantReturnActivity"
+164-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:153:13-59
+165            android:screenOrientation="portrait" />
+165-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:154:13-49
+166        <activity
+166-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:155:9-157:52
+167            android:name="com.cassens.autotran.activities.ShuttleSelectLoadActivity"
+167-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:156:13-65
+168            android:screenOrientation="portrait" />
+168-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:157:13-49
+169        <activity
+169-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:158:9-160:52
+170            android:name="com.cassens.autotran.activities.InspectVehicleActivity"
+170-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:159:13-62
+171            android:screenOrientation="portrait" />
+171-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:160:13-49
+172        <activity
+172-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:161:9-164:52
+173            android:name="com.cassens.autotran.activities.VehicleInspectionActivity"
+173-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:162:13-65
+174            android:configChanges="uiMode"
+174-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:163:13-43
+175            android:screenOrientation="portrait" />
+175-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:164:13-49
+176        <activity
+176-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:165:9-168:68
+177            android:name="com.cassens.autotran.activities.TerminalCodeEnter"
+177-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:166:13-57
+178            android:screenOrientation="portrait"
+178-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:167:13-49
+179            android:windowSoftInputMode="stateVisible|adjustPan" />
+179-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:168:13-65
+180        <activity
+180-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:169:9-172:63
+181            android:name="com.cassens.autotran.activities.TerminalCodeList"
+181-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:170:13-56
+182            android:screenOrientation="portrait"
+182-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:171:13-49
+183            android:windowSoftInputMode="stateAlwaysHidden" />
+183-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:172:13-60
+184        <activity
+184-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:173:9-176:63
+185            android:name="com.cassens.autotran.activities.ShuttleDestinationListActivity"
+185-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:174:13-70
+186            android:screenOrientation="portrait"
+186-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:175:13-49
+187            android:windowSoftInputMode="stateAlwaysHidden" />
+187-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:176:13-60
+188        <activity
+188-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:177:9-180:63
+189            android:name="com.cassens.autotran.activities.ShuttleOriginListActivity"
+189-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:178:13-65
+190            android:screenOrientation="portrait"
+190-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:179:13-49
+191            android:windowSoftInputMode="stateAlwaysHidden" />
+191-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:180:13-60
+192        <activity
+192-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:181:9-184:68
+193            android:name="com.cassens.autotran.activities.LotCodeEnter"
+193-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:182:13-52
+194            android:screenOrientation="portrait"
+194-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:183:13-49
+195            android:windowSoftInputMode="stateVisible|adjustPan" />
+195-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:184:13-65
+196        <activity
+196-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:185:9-187:52
+197            android:name="com.cassens.autotran.activities.LotCodeList"
+197-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:186:13-51
+198            android:screenOrientation="portrait" />
+198-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:187:13-49
+199        <activity
+199-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:188:9-191:68
+200            android:name="com.cassens.autotran.activities.ScacCodeEnter"
+200-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:189:13-53
+201            android:screenOrientation="portrait"
+201-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:190:13-49
+202            android:windowSoftInputMode="stateVisible|adjustPan" />
+202-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:191:13-65
+203        <activity
+203-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:192:9-194:52
+204            android:name="com.cassens.autotran.activities.ScacCodeList"
+204-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:193:13-52
+205            android:screenOrientation="portrait" />
+205-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:194:13-49
+206        <activity
+206-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:195:9-198:68
+207            android:name="com.cassens.autotran.activities.DamageCodeEnter"
+207-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:196:13-55
+208            android:screenOrientation="portrait"
+208-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:197:13-49
+209            android:windowSoftInputMode="stateVisible|adjustPan" />
+209-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:198:13-65
+210        <activity
+210-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:199:9-201:52
+211            android:name="com.cassens.autotran.activities.DamageCodeList"
+211-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:200:13-54
+212            android:screenOrientation="portrait" />
+212-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:201:13-49
+213        <activity
+213-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:202:9-204:52
+214            android:name="com.cassens.autotran.activities.DamageCodeListSecond"
+214-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:203:13-60
+215            android:screenOrientation="portrait" />
+215-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:204:13-49
+216        <activity
+216-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:205:9-207:52
+217            android:name="com.cassens.autotran.activities.UtilitiesActivity"
+217-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:206:13-57
+218            android:screenOrientation="portrait" />
+218-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:207:13-49
+219        <activity
+219-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:208:9-211:52
+220            android:name="com.cassens.autotran.activities.DealerMessagesActivity"
+220-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:209:13-62
+221            android:label="@string/title_activity_dealer_messages"
+221-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:210:13-67
+222            android:screenOrientation="portrait" />
+222-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:211:13-49
+223        <activity
+223-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:212:9-216:52
+224            android:name="com.cassens.autotran.activities.SignatureActivity"
+224-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:213:13-57
+225            android:configChanges="uiMode"
+225-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:215:13-43
+226            android:label="@string/title_activity_pre_load_signature"
+226-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:214:13-70
+227            android:screenOrientation="portrait" />
+227-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:216:13-49
+228        <activity
+228-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:217:9-220:52
+229            android:name="com.cassens.autotran.activities.DamageCodeTabbedListActivity"
+229-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:218:13-68
+230            android:label="@string/title_activity_damage_list"
+230-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:219:13-63
+231            android:screenOrientation="portrait" />
+231-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:220:13-49
+232        <activity
+232-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:221:9-224:52
+233            android:name="com.cassens.autotran.activities.VINDetailsActivity"
+233-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:222:13-58
+234            android:label="@string/title_activity_vindetails"
+234-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:223:13-62
+235            android:screenOrientation="portrait" />
+235-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:224:13-49
+236        <activity
+236-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:225:9-228:52
+237            android:name="com.cassens.autotran.activities.DealerDetailsActivity"
+237-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:226:13-61
+238            android:label="@string/title_activity_dealer_details"
+238-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:227:13-66
+239            android:screenOrientation="portrait" />
+239-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:228:13-49
+240        <activity
+240-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:229:9-232:52
+241            android:name="com.cassens.autotran.activities.RejectionVINActivity"
+241-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:230:13-60
+242            android:label="@string/title_activity_rejection_vin"
+242-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:231:13-65
+243            android:screenOrientation="portrait" />
+243-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:232:13-49
+244        <activity
+244-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:233:9-236:52
+245            android:name="com.cassens.autotran.activities.NotesActivity"
+245-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:234:13-53
+246            android:label="@string/title_activity_notes"
+246-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:235:13-57
+247            android:screenOrientation="portrait" />
+247-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:236:13-49
+248        <activity
+248-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:237:9-240:52
+249            android:name="com.cassens.autotran.activities.NotesListActivity"
+249-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:238:13-57
+250            android:label="@string/title_activity_notes_list"
+250-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:239:13-62
+251            android:screenOrientation="portrait" />
+251-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:240:13-49
+252        <activity
+252-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:241:9-245:52
+253            android:name="com.cassens.autotran.activities.CommunicationsActivity"
+253-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:242:13-62
+254            android:label="@string/title_activity_communications"
+254-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:243:13-66
+255            android:parentActivityName="com.cassens.autotran.activities.LoginActivity"
+255-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:244:13-67
+256            android:screenOrientation="portrait" />
+256-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:245:13-49
+257        <activity
+257-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:246:9-249:52
+258            android:name="com.cassens.autotran.activities.UploadStatusActivity"
+258-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:247:13-60
+259            android:label="@string/title_activity_upload_status"
+259-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:248:13-65
+260            android:screenOrientation="portrait" />
+260-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:249:13-49
+261        <activity
+261-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:250:9-253:52
+262            android:name="com.cassens.autotran.activities.ClearLoadActivity"
+262-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:251:13-57
+263            android:label="@string/clearload"
+263-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:252:13-46
+264            android:screenOrientation="portrait" />
+264-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:253:13-49
+265        <activity
+265-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:254:9-257:52
+266            android:name="com.cassens.autotran.activities.SetTerminalActivity"
+266-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:255:13-59
+267            android:label="Set Default Terminal"
+267-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:256:13-49
+268            android:screenOrientation="portrait" />
+268-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:257:13-49
+269        <activity
+269-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:258:9-262:52
+270            android:name="com.cassens.autotran.activities.DrivingLockActivity"
+270-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:259:13-59
+271            android:label="@string/drivingMode"
+271-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:260:13-48
+272            android:screenOrientation="portrait"
+272-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:262:13-49
+273            android:theme="@android:style/Theme.Dialog" />
+273-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:261:13-56
+274        <activity
+274-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:263:9-266:52
+275            android:name="com.cassens.autotran.activities.CheckScannerActivity"
+275-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:264:13-60
+276            android:label="Check the barcode scanner"
+276-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:265:13-54
+277            android:screenOrientation="portrait" />
+277-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:266:13-49
+278        <activity
+278-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:267:9-270:52
+279            android:name="com.cassens.autotran.activities.ScanSupervisorCodeActivity"
+279-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:268:13-66
+280            android:label="Scan a code and continue if a supervisor card"
+280-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:269:13-74
+281            android:screenOrientation="portrait" />
+281-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:270:13-49
+282        <activity
+282-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:271:9-275:52
+283            android:name="com.cassens.autotran.activities.ProblemReportActivity"
+283-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:272:13-61
+284            android:configChanges="uiMode"
+284-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:274:13-43
+285            android:label="Report issues on the road."
+285-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:273:13-55
+286            android:screenOrientation="portrait" />
+286-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:275:13-49
+287        <activity
+287-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:276:9-280:56
+288            android:name="com.cassens.autotran.activities.DriverMessageDialogActivity"
+288-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:277:13-67
+289            android:exported="true"
+289-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:278:13-36
+290            android:screenOrientation="portrait"
+290-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:279:13-49
+291            android:theme="@style/Theme.Transparent" />
+291-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:280:13-53
+292
+293        <receiver
+293-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:282:9-291:20
+294            android:name="com.cassens.autotran.receivers.DeviceBootReceiver"
+294-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:283:13-57
+295            android:enabled="true"
+295-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:285:13-35
+296            android:exported="true" >
+296-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:284:13-36
+297            <intent-filter>
+297-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:286:13-290:29
+298                <category android:name="android.intent.category.DEFAULT" />
+298-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:287:17-76
+298-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:287:27-73
+299
+300                <action android:name="android.intent.action.BOOT_COMPLETED" />
+300-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:288:17-79
+300-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:288:25-76
+301                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+301-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:289:17-82
+301-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:289:25-79
+302            </intent-filter>
+303        </receiver>
+304        <receiver
+304-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:293:9-302:20
+305            android:name="com.cassens.autotran.receivers.RemoteSyncReceiver"
+305-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:294:13-57
+306            android:enabled="true"
+306-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:296:13-35
+307            android:exported="false" >
+307-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:295:13-37
+308            <intent-filter>
+308-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:297:13-301:29
+309                <action android:name="com.cassens.autotran.receivers.RemoteSyncReceiver" />
+309-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:298:17-92
+309-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:298:25-89
+310
+311                <category android:name="android.intent.category.DEFAULT" />
+311-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:287:17-76
+311-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:287:27-73
+312            </intent-filter>
+313        </receiver>
+314        <receiver
+314-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:304:9-313:20
+315            android:name="com.cassens.autotran.receivers.DriverActionQueueReceiver"
+315-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:305:13-64
+316            android:enabled="true"
+316-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:307:13-35
+317            android:exported="false" >
+317-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:306:13-37
+318            <intent-filter>
+318-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:308:13-312:29
+319                <action android:name="com.cassens.autotran.receivers.DriverActionQueueReceiver" />
+319-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:309:17-99
+319-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:309:25-96
+320
+321                <category android:name="android.intent.category.DEFAULT" />
+321-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:287:17-76
+321-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:287:27-73
+322            </intent-filter>
+323        </receiver>
+324        <receiver
+324-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:314:9-323:20
+325            android:name="com.cassens.autotran.receivers.DrivingLockOverrideDoneReceiver"
+325-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:315:13-70
+326            android:enabled="true"
+326-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:317:13-35
+327            android:exported="false" >
+327-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:316:13-37
+328            <intent-filter>
+328-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:318:13-322:29
+329                <action android:name="com.cassens.autotran.receivers.DrivingLockOverrideDoneReceiver" />
+329-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:319:17-105
+329-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:319:25-102
+330
+331                <category android:name="android.intent.category.DEFAULT" />
+331-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:287:17-76
+331-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:287:27-73
+332            </intent-filter>
+333        </receiver>
+334        <receiver
+334-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:324:9-332:20
+335            android:name="com.cassens.autotran.receivers.WifiStateChangedReceiver"
+335-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:325:13-63
+336            android:enabled="true"
+336-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:327:13-35
+337            android:exported="false" >
+337-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:326:13-37
+338            <intent-filter>
+338-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:328:13-331:29
+339                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+339-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:329:17-78
+339-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:329:25-75
+340                <action android:name="android.net.wifi.STATE_CHANGE" />
+340-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:330:17-72
+340-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:330:25-69
+341            </intent-filter>
+342        </receiver>
+343        <receiver
+343-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:333:9-342:20
+344            android:name="com.cassens.autotran.receivers.UsbDeviceRemovedReceiver"
+344-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:333:19-69
+345            android:enabled="true"
+345-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:335:13-35
+346            android:exported="false" >
+346-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:334:13-37
+347            <intent-filter>
+347-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:336:13-338:29
+348                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+348-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:337:17-90
+348-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:337:25-87
+349            </intent-filter>
+350
+351            <meta-data
+351-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:339:13-341:57
+352                android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"
+352-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:339:24-103
+353                android:resource="@xml/device_filter" />
+353-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:341:17-54
+354        </receiver>
+355        <receiver
+355-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:343:9-350:20
+356            android:name="com.cassens.autotran.receivers.UsbPermissionReceiver"
+356-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:344:13-60
+357            android:enabled="true"
+357-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:346:13-35
+358            android:exported="false" >
+358-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:345:13-37
+359            <intent-filter>
+359-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:347:13-349:29
+360                <action android:name="com.cassens.autotran.usb_permission" />
+360-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:348:17-78
+360-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:348:25-75
+361            </intent-filter>
+362        </receiver>
+363
+364        <service
+364-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:352:9-354:40
+365            android:name="com.cassens.autotran.data.remote.HttpCallIntentService"
+365-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:353:13-62
+366            android:exported="false" />
+366-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:354:13-37
+367
+368        <receiver android:name="com.cassens.autotran.data.remote.UploadResultReceiver" />
+368-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:356:9-70
+368-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:356:19-67
+369        <receiver
+369-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:358:9-360:40
+370            android:name="com.cassens.autotran.data.remote.tasks.TruckEventsRepeatingTask$TruckEventsAlarmReceiver"
+370-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:359:13-96
+371            android:exported="false" />
+371-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:360:13-37
+372
+373        <activity
+373-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:362:9-364:52
+374            android:name="com.cassens.autotran.activities.HighClaimsAuditActivity"
+374-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:363:13-63
+375            android:screenOrientation="portrait" />
+375-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:364:13-49
+376        <activity
+376-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:365:9-367:52
+377            android:name="com.cassens.autotran.activities.LotCodeMessageActivity"
+377-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:366:13-62
+378            android:screenOrientation="portrait" />
+378-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:367:13-49
+379
+380        <receiver
+380-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:369:9-377:20
+381            android:name="com.cassens.autotran.data.remote.S3UploadResultReceiver"
+381-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:370:13-63
+382            android:enabled="true"
+382-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:371:13-35
+383            android:exported="false" >
+383-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:372:13-37
+384            <intent-filter>
+384-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:373:13-376:29
+385                <action android:name="s3_succeeded" />
+385-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:374:17-55
+385-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:374:25-52
+386                <action android:name="s3_failed" />
+386-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:375:17-52
+386-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:375:25-49
+387            </intent-filter>
+388        </receiver>
+389
+390        <activity
+390-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:379:9-383:76
+391            android:name="com.cassens.autotran.activities.LossAndDamageActivity"
+391-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:380:13-61
+392            android:configChanges="uiMode"
+392-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:381:13-43
+393            android:screenOrientation="portrait"
+393-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:382:13-49
+394            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+394-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:383:13-73
+395        <activity
+395-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:384:9-386:52
+396            android:name="com.cassens.autotran.activities.ViewMessagesActivity"
+396-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:385:13-60
+397            android:screenOrientation="portrait" />
+397-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:386:13-49
+398        <activity
+398-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:387:9-389:52
+399            android:name="com.cassens.autotran.activities.SafeDeliveryActivity"
+399-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:388:13-60
+400            android:screenOrientation="portrait" />
+400-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:389:13-49
+401
+402        <service
+402-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:391:9-393:40
+403            android:name="com.sdgsystems.util.DetectedActivitiesIntentService"
+403-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:392:13-79
+404            android:exported="false" />
+404-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:393:13-37
+405
+406        <provider
+406-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:29:9-37:20
+407            android:name="androidx.startup.InitializationProvider"
+407-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:30:13-67
+408            android:authorities="com.cassens.autotran.driver.prod.androidx-startup"
+408-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:31:13-68
+409            android:exported="false" >
+409-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:32:13-37
+410            <meta-data
+410-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:34:13-36:52
+411                android:name="androidx.work.WorkManagerInitializer"
+411-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:35:17-68
+412                android:value="androidx.startup" />
+412-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:36:17-49
+413        </provider>
+414
+415        <service
+415-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
+416            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+416-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
+417            android:directBootAware="false"
+417-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
+418            android:enabled="@bool/enable_system_alarm_service_default"
+418-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
+419            android:exported="false" />
+419-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
+420        <service
+420-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
+421            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+421-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
+422            android:directBootAware="false"
+422-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
+423            android:enabled="@bool/enable_system_job_service_default"
+423-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
+424            android:exported="true"
+424-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
+425            android:permission="android.permission.BIND_JOB_SERVICE" />
+425-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
+426        <service
+426-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
+427            android:name="androidx.work.impl.foreground.SystemForegroundService"
+427-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
+428            android:directBootAware="false"
+428-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
+429            android:enabled="@bool/enable_system_foreground_service_default"
+429-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
+430            android:exported="false" />
+430-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
+431
+432        <receiver
+432-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
+433            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+433-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
+434            android:directBootAware="false"
+434-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
+435            android:enabled="true"
+435-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
+436            android:exported="false" />
+436-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
+437        <receiver
+437-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
+438            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+438-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
+439            android:directBootAware="false"
+439-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
+440            android:enabled="false"
+440-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
+441            android:exported="false" >
+441-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
+442            <intent-filter>
+442-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
+443                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+443-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
+443-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
+444                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+444-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
+444-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
+445            </intent-filter>
+446        </receiver>
+447        <receiver
+447-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
+448            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+448-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
+449            android:directBootAware="false"
+449-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
+450            android:enabled="false"
+450-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
+451            android:exported="false" >
+451-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
+452            <intent-filter>
+452-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
+453                <action android:name="android.intent.action.BATTERY_OKAY" />
+453-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
+453-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
+454                <action android:name="android.intent.action.BATTERY_LOW" />
+454-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
+454-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
+455            </intent-filter>
+456        </receiver>
+457        <receiver
+457-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
+458            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+458-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
+459            android:directBootAware="false"
+459-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
+460            android:enabled="false"
+460-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
+461            android:exported="false" >
+461-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
+462            <intent-filter>
+462-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
+463                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+463-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
+463-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
+464                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+464-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
+464-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
+465            </intent-filter>
+466        </receiver>
+467        <receiver
+467-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
+468            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+468-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
+469            android:directBootAware="false"
+469-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
+470            android:enabled="false"
+470-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
+471            android:exported="false" >
+471-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
+472            <intent-filter>
+472-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:106:13-108:29
+473                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+473-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:17-79
+473-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:25-76
+474            </intent-filter>
+475        </receiver>
+476        <receiver
+476-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
+477            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+477-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
+478            android:directBootAware="false"
+478-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
+479            android:enabled="false"
+479-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
+480            android:exported="false" >
+480-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
+481            <intent-filter>
+481-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
+482                <action android:name="android.intent.action.BOOT_COMPLETED" />
+482-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:288:17-79
+482-->/Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:288:25-76
+483                <action android:name="android.intent.action.TIME_SET" />
+483-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
+483-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
+484                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+484-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
+484-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
+485            </intent-filter>
+486        </receiver>
+487        <receiver
+487-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
+488            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+488-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
+489            android:directBootAware="false"
+489-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
+490            android:enabled="@bool/enable_system_alarm_service_default"
+490-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
+491            android:exported="false" >
+491-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
+492            <intent-filter>
+492-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
+493                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+493-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
+493-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
+494            </intent-filter>
+495        </receiver>
+496        <receiver
+496-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
+497            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+497-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
+498            android:directBootAware="false"
+498-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
+499            android:enabled="true"
+499-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
+500            android:exported="true"
+500-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
+501            android:permission="android.permission.DUMP" >
+501-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
+502            <intent-filter>
+502-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
+503                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+503-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
+503-->[androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
+504            </intent-filter>
+505        </receiver>
+506
+507        <service
+507-->[androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+508            android:name="androidx.room.MultiInstanceInvalidationService"
+508-->[androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+509            android:directBootAware="true"
+509-->[androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+510            android:exported="false" />
+510-->[androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+511        <service
+511-->[com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:14:9-20:19
+512            android:name="com.google.firebase.components.ComponentDiscoveryService"
+512-->[com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:15:13-84
+513            android:directBootAware="true"
+513-->[com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+514            android:exported="false" >
+514-->[com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:16:13-37
+515            <meta-data
+515-->[com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:17:13-19:85
+516                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+516-->[com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:18:17-115
+517                android:value="com.google.firebase.components.ComponentRegistrar" />
+517-->[com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:19:17-82
+518            <meta-data
+518-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+519                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+519-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+520                android:value="com.google.firebase.components.ComponentRegistrar" />
+520-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+521            <meta-data
+521-->[com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+522                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+522-->[com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+523                android:value="com.google.firebase.components.ComponentRegistrar" />
+523-->[com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+524        </service>
+525        <service
+525-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+526            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+526-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+527            android:exported="false" >
+527-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+528            <meta-data
+528-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+529                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+529-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+530                android:value="cct" />
+530-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+531        </service>
+532        <service
+532-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+533            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+533-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+534            android:exported="false"
+534-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+535            android:permission="android.permission.BIND_JOB_SERVICE" >
+535-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+536        </service>
+537
+538        <receiver
+538-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+539            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+539-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+540            android:exported="false" />
+540-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+541
+542        <provider
+542-->[com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+543            android:name="com.google.firebase.provider.FirebaseInitProvider"
+543-->[com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+544            android:authorities="com.cassens.autotran.driver.prod.firebaseinitprovider"
+544-->[com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+545            android:directBootAware="true"
+545-->[com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+546            android:exported="false"
+546-->[com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+547            android:initOrder="100" />
+547-->[com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+548
+549        <receiver
+549-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+550            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+550-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+551            android:enabled="true"
+551-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+552            android:exported="false" >
+552-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+553        </receiver>
+554
+555        <service
+555-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+556            android:name="com.google.android.gms.measurement.AppMeasurementService"
+556-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+557            android:enabled="true"
+557-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+558            android:exported="false" />
+558-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+559        <service
+559-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+560            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+560-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+561            android:enabled="true"
+561-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+562            android:exported="false"
+562-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+563            android:permission="android.permission.BIND_JOB_SERVICE" />
+563-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+564
+565        <activity
+565-->[com.google.android.gms:play-services-base:16.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d096ca0eb2216ba2655cf1bfb53082aa/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+566            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+566-->[com.google.android.gms:play-services-base:16.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d096ca0eb2216ba2655cf1bfb53082aa/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+567            android:exported="false"
+567-->[com.google.android.gms:play-services-base:16.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d096ca0eb2216ba2655cf1bfb53082aa/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+568            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+568-->[com.google.android.gms:play-services-base:16.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d096ca0eb2216ba2655cf1bfb53082aa/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+569
+570        <meta-data
+570-->[com.google.android.gms:play-services-basement:18.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8b8a227373cc5bfa949db3845c5fdbc2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+571            android:name="com.google.android.gms.version"
+571-->[com.google.android.gms:play-services-basement:18.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8b8a227373cc5bfa949db3845c5fdbc2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+572            android:value="@integer/google_play_services_version" />
+572-->[com.google.android.gms:play-services-basement:18.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8b8a227373cc5bfa949db3845c5fdbc2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+573
+574        <provider
+574-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+575            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+575-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+576            android:authorities="com.cassens.autotran.driver.prod.lifecycle-process"
+576-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+577            android:exported="false"
+577-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+578            android:multiprocess="true" />
+578-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+579    </application>
+580
+581</manifest>

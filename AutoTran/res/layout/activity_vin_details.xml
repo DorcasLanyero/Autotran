@@ -1,0 +1,249 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maon_bg"
+    tools:context=".VINDetailsActivity"
+    android:id="@+id/parentLayout"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/lin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bar_bg"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:onClick="back"
+            android:src="@drawable/back_button" />
+
+        <TextView
+            android:id="@+id/ACTIVITY_TITLE"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="Vehicle Description"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+	
+	<ScrollView
+        android:id="@+id/scroll_details"            
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/lin_top"
+	    >
+    <RelativeLayout
+        android:id="@+id/rel_details"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin_top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp" >
+
+        <LinearLayout
+            android:id="@+id/linear_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="VIN:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="Type:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="Body:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="Color:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+            
+<!--             <TextView -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="40dp" -->
+<!--                 android:gravity="center_vertical" -->
+<!--                 android:padding="2dp" -->
+<!--                 android:text="Status:" -->
+<!--                 android:textColor="@color/black" -->
+<!--                 android:textSize="@dimen/txt_size_header" /> -->
+
+<!--             <TextView -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="40dp" -->
+<!--                 android:gravity="center_vertical" -->
+<!--                 android:padding="2dp" -->
+<!--                 android:text="Load #:" -->
+<!--                 android:textColor="@color/black" -->
+<!--                 android:textStyle="bold" -->
+<!--                 android:textSize="@dimen/txt_size_header" /> -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="Weight:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+            
+            <TextView
+                android:id="@+id/label_vin_location"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="Location:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/linear_text"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_vin_id"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="VIN"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+            
+            <TextView
+                android:id="@+id/txt_vin_type"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="Type"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/txt_vin_body"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="Body"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/txt_vin_color"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="Color"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+<!--             <TextView -->
+<!--                 android:id="@+id/txt_vin_status" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="40dp" -->
+<!--                 android:gravity="center_vertical" -->
+<!--                 android:padding="2dp" -->
+<!--                 android:text="Status" -->
+<!--                 android:textColor="@color/black" -->
+<!--                 android:textSize="@dimen/txt_size_body" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/txt_vin_load" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="40dp" -->
+<!--                 android:gravity="center_vertical" -->
+<!--                 android:padding="2dp" -->
+<!--                 android:text="Load #" -->
+<!--                 android:textColor="@color/black" -->
+<!--                 android:textSize="@dimen/txt_size_body" /> -->
+
+            <TextView
+                android:id="@+id/txt_vin_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="Weight"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+            
+            <TextView
+                android:id="@+id/txt_vin_location"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="Weight"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+        </LinearLayout>
+        
+        
+    </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_vin_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/scroll_details"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_bg"
+        android:text="Get Dealer Info"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+         />
+
+</RelativeLayout>

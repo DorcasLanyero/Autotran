@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maon_bg"
+    android:orientation="vertical"
+    tools:context=".activities.UtilitiesActivity"
+    android:id="@+id/parentLayout"
+    >
+
+    <RelativeLayout
+        android:id="@+id/lin_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bar_bg" >
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@null"
+            android:src="@drawable/back_button" />
+
+        <TextView
+            android:id="@+id/ACTIVITY_TITLE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Utilities"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@null"
+            android:src="@drawable/menu_icon" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                style="@style/UtilityButton"
+                android:id="@+id/btnsetdefaults"
+                android:text="Choose Default Terminal" />
+
+            <Button
+                style="@style/UtilityButton"
+                android:id="@+id/btncheckScanner"
+                android:text="Check Scanner Functionality" />
+
+            <Button
+                style="@style/UtilityButton"
+                android:id="@+id/btnclearload"
+                android:text="Clear Load" />
+
+            <Button
+                style="@style/UtilityButton"
+                android:id="@+id/btnupload"
+                android:text="Check Upload Status" />
+
+            <Button
+                style="@style/UtilityButton"
+                android:id="@+id/btnlogoff"
+                android:text="Log Out" />
+
+            <Button
+                style="@style/UtilityButton"
+                android:id="@+id/sendLogs"
+                android:text="Upload Log Files" />
+
+            <Button
+                style="@style/UtilityButton"
+                android:id="@+id/clearLogs"
+                android:text="Clear Logs"
+                android:visibility="gone"/>
+
+            <Button
+                style="@style/UtilityButton"
+                android:id="@+id/displayDamageCodes"
+                android:text="Display Damage Codes" />
+
+            <Button
+                style="@style/UtilityButton"
+                android:id="@+id/problemReport"
+                android:text="Problem Report" />
+
+            <Button
+                style="@style/UtilityButton"
+                android:id="@+id/tabletStatsReport"
+                android:text="Report Tablet Statistics" />
+
+            <Button
+                style="@style/UtilityButton"
+                android:id="@+id/testError"
+                android:text="Test Error Handling"
+                android:visibility="gone"
+                />
+
+            <Button
+                android:id="@+id/toggleDrivingSimulation"
+                style="@style/UtilityButton"
+                android:text="Simulate Driving"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:textColor="@color/black"
+                android:lineSpacingMultiplier="1.2"
+                android:textAlignment="center"
+                android:id="@+id/deviceInfo"
+                android:layout_marginTop="40dp"
+                android:gravity='center'/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

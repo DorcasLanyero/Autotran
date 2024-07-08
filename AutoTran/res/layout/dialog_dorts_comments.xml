@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <com.cassens.autotran.views.CustomScrollView
+        android:id="@+id/sti_comment_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_gravity="left"
+                android:text="@string/dorts_instructions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_gravity="left"
+                android:text="@string/dorts_approver_contact_prompt" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/dortsApproverFirstName_et"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/textfield"
+                    android:ellipsize="end"
+                    android:hint="First Name"
+                    android:imeActionLabel="DONE"
+                    android:imeOptions="actionNext"
+                    android:inputType="text|textCapWords"
+                    android:nextFocusRight="@+id/dortsApproverLastName_et"
+                    android:nextFocusDown="@+id/dortsApproverLastName_et"
+                    android:nextFocusForward="@+id/dortsApproverLastName_et"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/dortsApproverLastName_et"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/textfield"
+                    android:ellipsize="end"
+                    android:hint="Last Name"
+                    android:imeActionLabel="DONE"
+                    android:imeOptions="actionNext"
+                    android:inputType="text|textCapWords"
+                    android:nextFocusRight="@+id/dortsExceptionReason_et"
+                    android:nextFocusDown="@+id/dortsExceptionReason_et"
+                    android:nextFocusForward="@+id/dortsExceptionReason_et"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:id="@+id/exception_reason_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="4dp"
+                    android:text="Reason for Exception " />
+
+                <EditText
+                    android:id="@+id/dortsExceptionReason_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textfield"
+                    android:ellipsize="end"
+                    android:hint="Reason"
+                    android:imeActionLabel="DONE"
+                    android:imeOptions="actionNext"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:nextFocusRight="@+id/dortsDealerFirstName_et"
+                    android:nextFocusDown="@+id/dortsDealerFirstName_et"
+                    android:nextFocusForward="@+id/dortsDealerFirstName_et"
+                    android:maxLength="200"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_gravity="left
+        "
+                android:text="@string/dorts_dealer_contact_prompt" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/dortsDealerFirstName_et"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/textfield"
+                    android:ellipsize="end"
+                    android:hint="First Name"
+                    android:imeActionLabel="DONE"
+                    android:imeOptions="actionNext"
+                    android:inputType="text|textCapWords"
+                    android:nextFocusRight="@+id/dortsDealerLastName_et"
+                    android:nextFocusDown="@+id/dortsDealerLastName_et"
+                    android:nextFocusForward="@+id/dortsDealerLastName_et"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/dortsDealerLastName_et"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/textfield"
+                    android:ellipsize="end"
+                    android:hint="Last Name"
+                    android:imeActionLabel="DONE"
+                    android:imeOptions="actionDone"
+                    android:inputType="text|textCapWords"
+                    android:padding="5dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/done_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:ellipsize="end"
+                    android:ems="10"
+                    android:text="Done" />
+
+                <Button
+                    android:id="@+id/cancel_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:layout_marginLeft="3dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:ems="10"
+                    android:text="Cancel" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.cassens.autotran.views.CustomScrollView>
+
+</LinearLayout>

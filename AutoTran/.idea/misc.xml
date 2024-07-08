@@ -1,0 +1,165 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../Library/Android/sdk/platforms/android-30/data/res/layout/simple_spinner_dropdown_item.xml" value="0.41822916666666665" />
+        <entry key="res/drawable-hdpi/communication_button.xml" value="0.297" />
+        <entry key="res/drawable-hdpi/delivery_button.xml" value="0.297" />
+        <entry key="res/drawable-hdpi/dispatch_button.xml" value="0.297" />
+        <entry key="res/drawable-hdpi/inspect_button.xml" value="0.297" />
+        <entry key="res/drawable-hdpi/lot_button.xml" value="0.297" />
+        <entry key="res/drawable-hdpi/unread_messages_count_background.xml" value="0.321025641025641" />
+        <entry key="res/drawable-hdpi/upload_count_background.xml" value="0.1945" />
+        <entry key="res/drawable-sw600dp/delivery_button.xml" value="0.297" />
+        <entry key="res/drawable-sw600dp/dispatch_button.xml" value="0.297" />
+        <entry key="res/drawable-sw600dp/inspect_button.xml" value="0.297" />
+        <entry key="res/drawable-sw600dp/lot_button.xml" value="0.297" />
+        <entry key="res/drawable-xhdpi/black_button.xml" value="0.297" />
+        <entry key="res/drawable-xhdpi/button_bg.xml" value="0.297" />
+        <entry key="res/drawable-xhdpi/button_small.xml" value="0.297" />
+        <entry key="res/drawable-xhdpi/communication_buttion.xml" value="0.28" />
+        <entry key="res/drawable-xhdpi/delivery_button.xml" value="0.297" />
+        <entry key="res/drawable-xhdpi/dispatch_button.xml" value="0.297" />
+        <entry key="res/drawable-xhdpi/inspect_button.xml" value="0.297" />
+        <entry key="res/drawable-xhdpi/lot_button.xml" value="0.297" />
+        <entry key="res/drawable-xhdpi/red_button_bg.xml" value="0.229" />
+        <entry key="res/drawable-xhdpi/small_button_bg.xml" value="0.229" />
+        <entry key="res/drawable/circular_layout.xml" value="0.1935185185185185" />
+        <entry key="res/drawable/delete_icon.xml" value="0.3205" />
+        <entry key="res/drawable/edit_text_outline.xml" value="0.20833333333333334" />
+        <entry key="res/drawable/edit_text_outline_red.xml" value="0.297" />
+        <entry key="res/drawable/ic_edit_black_24dp.xml" value="0.11302083333333333" />
+        <entry key="res/drawable/ic_gps_fixed_24px.xml" value="0.297" />
+        <entry key="res/drawable/ic_gps_not_fixed_24px.xml" value="0.297" />
+        <entry key="res/drawable/ic_gps_off_24px.xml" value="0.297" />
+        <entry key="res/drawable/info_dialog_bg.xml" value="0.297" />
+        <entry key="res/drawable/info_sign_bg.xml" value="0.327" />
+        <entry key="res/drawable/info_sign_border.xml" value="0.297" />
+        <entry key="res/drawable/round_corner_layout.xml" value="0.327" />
+        <entry key="res/drawable/scrollbar_thumb.xml" value="0.229" />
+        <entry key="res/drawable/scrollbar_thumb_small.xml" value="0.229" />
+        <entry key="res/drawable/semi_cicular_corner_layout.xml" value="0.101" />
+        <entry key="res/drawable/stroked_circular_shape.xml" value="0.229" />
+        <entry key="res/drawable/yellow_box.xml" value="0.1945" />
+        <entry key="res/layout/activity_admin.xml" value="0.4126637554585153" />
+        <entry key="res/layout/activity_check_scanner.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_clearload.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_communications.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_create_shuttle_load.xml" value="0.33" />
+        <entry key="res/layout/activity_damage_summary.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_dashboard.xml" value="0.24010416666666667" />
+        <entry key="res/layout/activity_dealer_details.xml" value="0.4036458333333333" />
+        <entry key="res/layout/activity_dealer_messages.xml" value="0.23333333333333334" />
+        <entry key="res/layout/activity_dialog_overlay.xml" value="0.1" />
+        <entry key="res/layout/activity_driving_mode.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_error.xml" value="0.25" />
+        <entry key="res/layout/activity_high_claims_audit.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_idengine_scan_test.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_load_or_delivery_list.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_login.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_loss_and_damage.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_lot_code_message.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_notes.xml" value="0.25" />
+        <entry key="res/layout/activity_notes_list.xml" value="0.33" />
+        <entry key="res/layout/activity_problem_report.xml" value="0.23958333333333334" />
+        <entry key="res/layout/activity_rejection_vin.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_safe_delivery.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_set_defaults.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_shuttle_vin.xml" value="0.25" />
+        <entry key="res/layout/activity_shuttle_vin_select.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_signature.xml" value="0.25" />
+        <entry key="res/layout/activity_splash.xml" value="0.19635416666666666" />
+        <entry key="res/layout/activity_supplemental_notes.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_upload_status.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_utilities.xml" value="0.37027027027027026" />
+        <entry key="res/layout/activity_vehicle_inspection.xml" value="0.25" />
+        <entry key="res/layout/activity_vin_details.xml" value="0.41822916666666665" />
+        <entry key="res/layout/activity_vin_inspection.xml" value="0.30039215087890625" />
+        <entry key="res/layout/activity_vin_inventory.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_vin_list_select.xml" value="0.375" />
+        <entry key="res/layout/activity_vin_ocr.xml" value="0.4244791666666667" />
+        <entry key="res/layout/activity_vin_select.xml" value="0.33" />
+        <entry key="res/layout/check_list.xml" value="0.2861111111111111" />
+        <entry key="res/layout/code_enter.xml" value="0.4244791666666667" />
+        <entry key="res/layout/code_enter_string.xml" value="0.33" />
+        <entry key="res/layout/code_list.xml" value="0.178125" />
+        <entry key="res/layout/countdown_display.xml" value="0.4244791666666667" />
+        <entry key="res/layout/customprogressdialog.xml" value="0.4244791666666667" />
+        <entry key="res/layout/damage_code_enter.xml" value="0.25" />
+        <entry key="res/layout/damage_code_list.xml" value="0.4244791666666667" />
+        <entry key="res/layout/damage_code_list_second.xml" value="0.4244791666666667" />
+        <entry key="res/layout/damage_list_element.xml" value="0.4244791666666667" />
+        <entry key="res/layout/damage_popup_list_element.xml" value="0.4244791666666667" />
+        <entry key="res/layout/dealer_eta_item.xml" value="0.25833333333333336" />
+        <entry key="res/layout/dealer_list_element.xml" value="0.25833333333333336" />
+        <entry key="res/layout/dealer_list_element_small.xml" value="0.43484571910493786" />
+        <entry key="res/layout/dealer_relay_point.xml" value="0.5" />
+        <entry key="res/layout/dialog_callback_number.xml" value="0.41822916666666665" />
+        <entry key="res/layout/dialog_dealer_confirm.xml" value="0.25833333333333336" />
+        <entry key="res/layout/dialog_dealer_unavailable.xml" value="0.5" />
+        <entry key="res/layout/dialog_dispatch.xml" value="0.4244791666666667" />
+        <entry key="res/layout/dialog_forward_website.xml" value="0.3277777777777778" />
+        <entry key="res/layout/dialog_full_name.xml" value="0.2359375" />
+        <entry key="res/layout/dialog_image_view.xml" value="0.4244791666666667" />
+        <entry key="res/layout/dialog_information.xml" value="0.33" />
+        <entry key="res/layout/dialog_lot_locate.xml" value="0.25" />
+        <entry key="res/layout/dialog_message.xml" value="0.3475458093452851" />
+        <entry key="res/layout/dialog_messages.xml" value="0.375" />
+        <entry key="res/layout/dialog_questionnaire.xml" value="0.40712405439563065" />
+        <entry key="res/layout/dialog_signature_view.xml" value="0.335" />
+        <entry key="res/layout/dialog_signature_view_large.xml" value="0.41822916666666665" />
+        <entry key="res/layout/dialog_sti_comments.xml" value="0.45" />
+        <entry key="res/layout/dialog_tips.xml" value="0.41822916666666665" />
+        <entry key="res/layout/dialog_trending_alerts.xml" value="0.4244791666666667" />
+        <entry key="res/layout/dialog_truck_number_override.xml" value="0.4244791666666667" />
+        <entry key="res/layout/dialog_update_units.xml" value="0.37856328392246297" />
+        <entry key="res/layout/dialog_update_vehicle_count.xml" value="0.2140077821011673" />
+        <entry key="res/layout/dialog_vehicle_position.xml" value="0.41822916666666665" />
+        <entry key="res/layout/driver_message_list.xml" value="0.23333333333333334" />
+        <entry key="res/layout/expandable_code_list.xml" value="0.4244791666666667" />
+        <entry key="res/layout/expandable_code_list_group.xml" value="0.41822916666666665" />
+        <entry key="res/layout/expandable_code_list_item.xml" value="0.4244791666666667" />
+        <entry key="res/layout/full_vin_list_item.xml" value="0.3248847926267281" />
+        <entry key="res/layout/generic_list_element.xml" value="0.3306540183810084" />
+        <entry key="res/layout/high_claims_footer.xml" value="0.4244791666666667" />
+        <entry key="res/layout/horizontal_list_with_color_text.xml" value="0.4244791666666667" />
+        <entry key="res/layout/idengine_device_choice_textview.xml" value="0.4244791666666667" />
+        <entry key="res/layout/load_or_delivery_element.xml" value="0.4244791666666667" />
+        <entry key="res/layout/load_position_shuffle_activity.xml" value="0.1" />
+        <entry key="res/layout/load_position_shuffle_dialog.xml" value="0.33825338253382536" />
+        <entry key="res/layout/lookup_img.xml" value="0.2859375" />
+        <entry key="res/layout/message_list.xml" value="0.4244791666666667" />
+        <entry key="res/layout/position_list_item.xml" value="0.21" />
+        <entry key="res/layout/scan_load.xml" value="0.4390625" />
+        <entry key="res/layout/shuttle_load_vin_list_element.xml" value="0.4244791666666667" />
+        <entry key="res/layout/snack_message_popup.xml" value="0.4390625" />
+        <entry key="res/layout/spinner_item.xml" value="0.4244791666666667" />
+        <entry key="res/layout/three_text_view.xml" value="0.4390625" />
+        <entry key="res/layout/vin_list_element.xml" value="0.25833333333333336" />
+        <entry key="res/layout/vin_list_element_small.xml" value="0.2448216756184896" />
+        <entry key="res/layout/vin_manual_entry.xml" value="0.4036458333333333" />
+        <entry key="res/menu/clear_positions.xml" value="0.4171875" />
+        <entry key="res/menu/damage_list.xml" value="0.1359375" />
+        <entry key="res/menu/dealer_details.xml" value="0.41822916666666665" />
+        <entry key="res/menu/dealer_messages.xml" value="0.41822916666666665" />
+        <entry key="res/menu/notes.xml" value="0.41822916666666665" />
+        <entry key="res/menu/notes_list.xml" value="0.41822916666666665" />
+        <entry key="res/menu/pre_load_signature.xml" value="0.41822916666666665" />
+        <entry key="res/menu/rejection_vin.xml" value="0.41822916666666665" />
+        <entry key="res/menu/review_vin.xml" value="0.41822916666666665" />
+        <entry key="res/menu/scan_vindelivery.xml" value="0.41822916666666665" />
+        <entry key="res/menu/supervisor_comment.xml" value="0.41822916666666665" />
+        <entry key="res/menu/vindetails.xml" value="0.41822916666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
+  </component>
+</project>

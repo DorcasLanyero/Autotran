@@ -1,0 +1,302 @@
+buildscript {
+    ext.kotlin_version = '1.6.10'
+    ext.work_version = '2.8.1'
+    
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.2.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+// Rules on version numbers:
+// o Version numbers for general availability (GA) releases have three visible period-delimited
+//   components: major number, minor number and patch number (e.g. 2.8.1). They also have a
+//   fourth hidden number which is set automatically to 99 whenever isGaRelease is set to true.
+// o Pre-GA versions have four visible components (major.minor.patch.preRelease)
+//   optionally followed by dash and version label (e.g. 2.8.0.1-alpha).
+// o Pre-GA version labels should be one of the following:
+//   "dev"    - app is ready for testing/evaluation outside the development organization
+//   "alpha"  - app contains a subset of planned content and is ready for limited evaluation/testing
+//   "beta"   - app contains all planned content and is ready for limited evaluation/testing
+//   no label - app is considered a "release candidate" ready to be evaluated/piloted for GA
+// o Pre-GA versions may be delivered to small groups of pilot customers; however, before
+//   delivering for general availability, the app should rebuilt with isGaRelease set to true
+//   so that it has the correct three-component version number format (e.g. 2.8.0).
+ext.versionMajor = 3
+ext.versionMinor = 0
+ext.versionPatch = 0
+ext.isGaRelease =  false
+ext.versionPreRelease = 0 // If isGaRelease is true, this will default to 99 and won't be displayed
+ext.versionLabel = "dev"  // pre-GA label appended to version ("dev", "alpha", "beta", null)
+
+buildscript {
+  repositories {
+      google()
+      mavenCentral()
+  }
+
+  dependencies {
+      classpath 'com.google.gms:google-services:4.3.10'
+      classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.2'
+  }
+}
+
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'kotlin-android'
+
+repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+
+repositories {
+  maven { url 'https://maven.fabric.io/public' }
+    google()
+}
+
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.3.1'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation ('com.amazonaws:aws-android-sdk-s3:2.2.1') {
+        exclude module: 'commons-logging'
+    }
+    implementation files('libs/httpmime-4.1-beta1.jar')
+    implementation files('libs/com.sdgsystems.idengine.api.aar')
+    implementation files('libs/logback-android-1.1.1-3.jar')
+    implementation files('libs/slf4j-api-1.7.6.jar')
+    implementation files('libs/Toughpad.jar')
+    implementation files('libs/DataCollection.jar')
+    implementation 'androidx.exifinterface:exifinterface:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+
+    testImplementation 'junit:junit:4.12'
+    implementation 'junit:junit:4.12'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.google.android.gms:play-services-vision:15.0.0'
+
+    implementation 'me.drakeet.support:toastcompat:1.1.0'
+
+    implementation platform('com.google.firebase:firebase-bom:31.2.0')
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-analytics'
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.0.0'
+
+    implementation 'org.apache.commons:commons-text:1.6'
+
+    implementation 'com.github.felHR85:UsbSerial:6.1.0'
+    implementation project(path: ':pngquant-android')
+
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    annotationProcessor 'org.greenrobot:eventbus-annotation-processor:3.2.0'
+
+    implementation("androidx.work:work-runtime:$work_version")
+    implementation("androidx.work:work-runtime-ktx:$work_version")
+
+}
+
+android {
+    compileSdkVersion 33
+
+    useLibrary 'org.apache.http.legacy'
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+
+            // a bit hackish as S3TransferUtility should have it's own build.gradle and
+            // be imported as a project dependency
+            java.srcDirs = ['src', 'S3TransferUtility/src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+
+        test {
+            root('src/test')
+            java.srcDir('src/test')
+        }
+        //need to add test sourceset?
+
+    }
+
+    signingConfigs {
+        debug {
+            if (System.getenv("BUILD_NUMBER") != null) {
+                storeFile file("/home/sdgbuild/keys/cassens.debug.keystore")
+            }
+        }
+
+        release {
+            storeFile file("/home/sdgbuild/keys/cassens.release.keystore")
+            storePassword "${System.getenv("KEYSTORE_PW")}"
+            keyAlias "release-key"
+            keyPassword "${System.getenv("KEY_PW")}"
+        }
+
+    }
+
+    defaultConfig {
+        applicationId "com.cassens.autotran.driver.prod"
+        versionName generateVersionName()
+        versionCode generateVersionCode()
+        minSdkVersion 25
+        targetSdkVersion 33
+
+        project.ext.set("archivesBaseName", "AutoTran")
+        vectorDrawables.useSupportLibrary = true
+        ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64'
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [ eventBusIndex : 'com.cassens.autotran.EventBusIndex' ]
+            }
+        }
+    }
+
+   compileOptions {
+       sourceCompatibility "1.8"
+       targetCompatibility "1.8"
+   }
+
+    buildTypes {
+        debug {
+            Properties properties = new Properties()
+            def localPropsFile = new File('local.properties')
+            if (localPropsFile.exists()) {
+                properties.load(project.rootProject.file('local.properties').newDataInputStream())
+            }
+
+            def apiUrl = properties.getProperty('autotran.apiUrl') ?: "\"https://autotran-test.sdgsystems.net/\""
+            buildConfigField("String", "AUTOTRAN_API_URL", apiUrl)
+
+            def validateVins = properties.getProperty('autotran.validateVins') ?: "true"
+            buildConfigField("Boolean", "AUTOTRAN_VALIDATE_VINS", validateVins)
+
+            def vinScanOptional = properties.getProperty('autotran.vinScanOptional') ?: "false"
+            buildConfigField("Boolean", "AUTOTRAN_VIN_SCAN_OPTIONAL", vinScanOptional)
+
+            def supervisorScanOptional = properties.getProperty('autotran.supervisorScanOptional') ?: "false"
+            buildConfigField("Boolean", "AUTOTRAN_SUPERVISOR_SCAN_OPTIONAL", supervisorScanOptional)
+
+            def showActivityToast = properties.getProperty('autotran.showActivityToast') ?: "false"
+            buildConfigField("Boolean", "AUTOTRAN_SHOW_ACTIVITY_TOAST", showActivityToast)
+
+            def truckHack = properties.getProperty('autotran.truckHack') ?: "false"
+            buildConfigField("Boolean", "AUTOTRAN_TRUCK_HACK", truckHack)
+
+            def showPiccoloDockWarning = properties.getProperty('autotran.showPiccoloDockWarning') ?: "true"
+            buildConfigField("Boolean", "AUTOTRAN_SHOW_PICCOLO_DOCK_WARNING", showPiccoloDockWarning)
+
+            def strictMode = properties.getProperty('autotran.strictMode') ?: "false"
+            buildConfigField("Boolean", "AUTOTRAN_STRICT_MODE", strictMode)
+
+            if(System.getenv("BUILD_NUMBER") != null) {
+                buildConfigField "Integer", "BUILD_NUMBER", "${System.getenv("BUILD_NUMBER")}"
+            } else {
+                buildConfigField "Integer", "BUILD_NUMBER", "-1"
+            }
+            buildConfigField "Boolean", "PRODUCTION", "${System.getenv("PRODUCTION")}"
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+            applicationVariants.all { variant ->
+                /*
+                variant.outputs.all{ output ->
+                    outputFileName = new File(output.outputFile.parent,outputFileName.replace("-debug.apk","_" + defaultConfig.versionName + "_debug.apk" ))
+                }
+                */
+
+                variant.outputs.each { output ->
+                    def file = output.outputFile
+                    def fileName = file.name.replace("-debug.apk", "_" + defaultConfig.versionName + "_debug.apk")
+                    output.outputFileName = fileName
+                }
+
+                def taskName = "createDebugVersionFile" + variant.flavorName.capitalize();
+                if (tasks.findByPath(taskName) == null) {
+                    tasks.create(name: taskName) {
+                        doLast {
+                            def prop = new Properties()
+                            def propFile = new File("$buildDir/versionDbg.properties")
+                            prop.setProperty('dbgversionname', "AutoTran_" + variant.versionName + "_debug.apk")
+                            propFile.createNewFile()
+                            prop.store(propFile.newWriter(), null)
+                        }
+                    }
+                }
+            }
+        }
+
+        release {
+            buildConfigField("String", "AUTOTRAN_API_URL", "\"http://autotranadmin-env-9rvvkiwnzp.elasticbeanstalk.com/\"")
+            buildConfigField("Boolean", "AUTOTRAN_VALIDATE_VINS", "true")
+            buildConfigField("Boolean", "AUTOTRAN_VIN_SCAN_OPTIONAL", "false")
+            buildConfigField("Boolean", "AUTOTRAN_SUPERVISOR_SCAN_OPTIONAL", "false")
+            buildConfigField("Boolean", "AUTOTRAN_SHOW_ACTIVITY_TOAST", "false")
+            buildConfigField("Boolean", "AUTOTRAN_TRUCK_HACK", "false")
+            buildConfigField("Boolean", "AUTOTRAN_SHOW_PICCOLO_DOCK_WARNING", "true")
+            buildConfigField("Boolean", "AUTOTRAN_STRICT_MODE", "false")
+            buildConfigField "Integer", "BUILD_NUMBER", "${System.getenv("BUILD_NUMBER")}"
+            buildConfigField "Boolean", "PRODUCTION", "${System.getenv("PRODUCTION")}"
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            applicationVariants.all { variant ->
+
+                variant.outputs.each { output ->
+                    def file = output.outputFile
+                    def fileName = file.name.replace("-release.apk", "_" + defaultConfig.versionName + "_release.apk")
+                    output.outputFileName = fileName
+                }
+
+                def taskName = "createReleaseVersionFile" + variant.flavorName.capitalize();
+                if (tasks.findByPath(taskName) == null) {
+                    tasks.create(name: taskName) {
+                        doLast {
+                            def prop = new Properties()
+                            def propFile = new File("$buildDir/versionRel.properties");
+                            prop.setProperty('relversionname', "AutoTran_" + variant.versionName + "_release.apk")
+                            propFile.createNewFile()
+                            prop.store(propFile.newWriter(), null)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+private Integer generateVersionCode() {
+    int preRelease
+
+    if (ext.isGaRelease) {
+        preRelease = 99
+    }
+    else {
+        preRelease = ext.versionPreRelease
+    }
+    return ext.versionMajor * 1000000 + ext.versionMinor * 10000 + ext.versionPatch * 100 + preRelease
+}
+
+private String generateVersionName() {
+    String versionName = "${ext.versionMajor}.${ext.versionMinor}.${ext.versionPatch}"
+
+    if (!ext.isGaRelease) {
+        versionName += ".${ext.versionPreRelease}"
+        if (ext.versionLabel != null) {
+            versionName += "-" + ext.versionLabel
+        }
+    }
+    return versionName;
+}

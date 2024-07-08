@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="max_note_length">500</item>
+    <item type="integer" name="max_delivery_note_length">1400</item>
+</resources>

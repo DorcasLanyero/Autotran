@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maon_bg"
+    android:orientation="vertical"
+    tools:context=".NotesActivity"
+    android:id="@+id/parentLayout"
+    >
+
+    <RelativeLayout
+        android:id="@+id/lin_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bar_bg" >
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@null"
+            android:src="@drawable/back_button" />
+
+        <TextView
+            android:id="@+id/ACTIVITY_TITLE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Utilities"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        
+        <ImageView
+            android:id="@+id/imageView1"
+            android:contentDescription="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/menu_icon" />
+    </RelativeLayout>
+      
+        <Button
+    android:id="@+id/btnupload"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/button_bg"
+    android:text="Force Upload to Server"
+    android:textColor="@color/white"
+    android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_switchView_Preload"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:text="PreLoad Uploads"
+            android:background="@drawable/button_small"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btn_switchView_Delivery"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:text="Delivery Uploads"
+            android:background="@drawable/button_small_pressed"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:enabled="false"
+            />
+
+    </LinearLayout>
+
+        
+        <ScrollView
+            android:layout_marginLeft="10dp"
+		    android:layout_marginRight="10dp"
+		    android:layout_marginTop="10dp"
+		    android:layout_marginBottom="10dp"
+            android:id="@+id/sv_uploadStatus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           
+            android:text="upload status goes here...">
+            
+        <LinearLayout
+            android:id="@+id/uploadStatusLog"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textStyle="bold"
+    		android:textSize="14sp"
+            >
+            <!-- Log entry textviews are added here -->
+
+
+        </LinearLayout>            
+            
+        </ScrollView>
+        
+</LinearLayout>

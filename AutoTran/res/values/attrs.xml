@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DrivenBackedButton">
+       <attr name="vehicle_orientation" format="enum">
+           <enum name="driven" value="0"/>
+           <enum name="backed" value="1"/>
+       </attr>
+   </declare-styleable>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffefefef"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/tvlineTop"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/lite_red"/>
+
+    <LinearLayout
+       	android:orientation="horizontal"
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:background="@color/lite_lite_gray"
+    	>
+	    
+	    <LinearLayout
+	    	android:id="@+id/LinearLayout_H"
+	    	android:orientation="vertical"
+	    	android:layout_height ="wrap_content"
+		    android:layout_width ="0dip"
+		    android:layout_weight="77">
+
+		    <TextView
+				android:id="@+id/ACTIVITY_TITLE"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:textSize="15sp"
+				android:paddingTop="4dp"
+				android:textColor="#666"
+				android:paddingLeft="5dp"
+				android:paddingBottom="3dp"
+		        android:text="Vin Details" />
+
+		    <TextView
+				android:id="@+id/ACTIVITY_PROMPT"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textColor="@color/lite_red"
+				android:textSize="13sp"
+				android:textStyle="bold"
+				android:paddingLeft="5dp"
+				android:paddingBottom="3dp"
+		        android:text="Dealer Name" />
+    	</LinearLayout>
+
+		<TextView
+			android:id="@+id/callout"
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:layout_weight="3"
+			android:gravity="center"
+			android:textColor="@color/lite_red"
+			android:textSize="11sp"
+			android:textStyle="bold"
+			android:padding="0dp"
+			android:layout_marginTop="8dp"
+			android:layout_marginBottom="8dp"
+			android:text="HIGH\nCLAIMS"
+			android:visibility="gone" />
+
+	    <TextView
+        style="@style/GroupExpandIcon"
+        android:id="@+id/groupExpandIcon"
+        android:layout_weight="6"
+        android:textSize="13sp"/>
+
+    <TextView
+        style="@style/DealerInfo"
+        android:layout_width ="0dip"
+	    android:layout_weight="17"
+	    android:background="@drawable/button_bg"
+		android:text="@string/dealerInfoIconDefault"
+		android:textSize="11sp"
+		android:textColor="@color/lite_lite_lite_gray"
+	    android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/infoIcon" />
+    
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvline"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="3dp"
+        android:layout_height="3dip"
+        android:background="@color/lite_red"/>
+
+</RelativeLayout>

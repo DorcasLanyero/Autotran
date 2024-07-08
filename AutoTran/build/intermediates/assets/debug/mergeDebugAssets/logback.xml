@@ -1,0 +1,436 @@
+<configuration debug="true">
+    <!--<property name="LOG_DIR" value="/data/data/${PACKAGE_NAME}/files" />-->
+    <property name="LOG_DIR" value="/sdcard/AutoTran/logs" />
+    <property name="DATA_DIR" value="/sdcard/AutoTran/logs" />
+
+    <appender name="UPLOAD" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.UPLOAD.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>UPLOAD</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.UPLOAD.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>1MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSZZZ}- %-5level %25logger{25}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="DISPATCH" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.DISPATCH.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>DISPATCH</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.DISPATCH.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>1MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSZZZ}- %-5level %25logger{25}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="DISPATCH_UPLOAD" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.DISPATCH_UPLOAD.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>DISPATCH_UPLOAD</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.DISPATCH_UPLOAD.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>1MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{"yyyy-MM-dd'T'HH:mm:ss.SSS", UTC}- %-5level %25logger{25}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="HIGH_LEVEL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.HIGH_LEVEL.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>HIGH_LEVEL</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.HIGH_LEVEL.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>1MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{"yyyy-MM-dd'T'HH:mm:ss.SSS", UTC}|%d{"yyyy-MM-dd HH:mm:ss"}|%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="INTERACTION" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.INTERACTION.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>INTERACTION</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.INTERACTION.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>3MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSZZZ}- %-5level %25logger{25}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="TRANSACTIONS" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.TRANSACTIONS.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>TRANSACTIONS</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.TRANSACTIONS.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>1MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSZZZ}- %-5level %25logger{25}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="EXCEPTIONS" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.EXCEPTIONS.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>EXCEPTIONS</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.EXCEPTIONS.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>1MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSZZZ}- %-5level %25logger{25}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="DATAMANAGER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.DATAMANAGER.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>DATAMANAGER</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.DATAMANAGER.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>1MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSZZZ}- %-5level %25logger{25}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="SIGNATURES" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.SIGNATURES.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>SIGNATURES</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.SIGNATURES.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>4MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSZZZ}- %-5level %25logger{25}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="DAMAGES" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.DAMAGES.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>DAMAGES</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.DAMAGES.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>1MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSZZZ}- %-5level %25logger{25}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="UPGRADES" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.UPGRADES.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>UPGRADES</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.UPGRADES.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>2</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>1MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSZZZ}- %-5level %25logger{25}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="DEBUG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.DEBUG.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>DEBUG</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.DEBUG.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>4MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSZZZ}- %-5level %25logger{25}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="DELETES" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.DELETES.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>DELETES</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.DELETES.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>4MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSZZZ}- %-5level %25logger{25}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="PICCOLO_IO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.PICCOLO_IO.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>PICCOLO_IO</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.PICCOLO_IO.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>1MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSSZZZ}- %25logger{25}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="BACKEND_POC" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/AutoTran.BACKEND_POC.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>BACKEND_POC</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${LOG_DIR}/AutoTran.BACKEND_POC.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>5</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>1MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd-HH:mm:ss}: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="LOGCAT" class="ch.qos.logback.classic.android.LogcatAppender">
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+				<marker>DEBUG</marker>
+                <marker>UPGRADES</marker>
+                <marker>EXCEPTIONS</marker>
+                <marker>INTERACTION</marker>
+                <marker>SIGNATURES</marker>
+                <marker>DELETES</marker>
+                <marker>PICCOLO_IO</marker>
+                <marker>BACKEND_POC</marker>
+            </evaluator>
+            <onMatch>NEUTRAL</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <encoder>
+            <pattern>AutoTran: %msg</pattern>
+        </encoder>
+    </appender>
+
+
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="UPGRADES" />
+        <appender-ref ref="DISPATCH" />
+        <appender-ref ref="DISPATCH_UPLOAD" />
+        <appender-ref ref="HIGH_LEVEL" />
+        <appender-ref ref="UPLOAD" />
+        <appender-ref ref="SIGNATURES" />
+        <appender-ref ref="DAMAGES" />
+        <appender-ref ref="TRANSACTIONS" />
+        <appender-ref ref="EXCEPTIONS" />
+        <appender-ref ref="DATAMANAGER" />
+        <appender-ref ref="INTERACTION" />
+        <appender-ref ref="DEBUG" />
+        <appender-ref ref="DELETES" />
+        <appender-ref ref="PICCOLO_IO" />
+        <appender-ref ref="BACKEND_POC" />
+        <appender-ref ref="LOGCAT" />
+    </root>
+</configuration>

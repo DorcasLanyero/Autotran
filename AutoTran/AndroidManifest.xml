@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cassens.autotran">
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+
+
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <uses-permission android:name="com.honeywell.decode.permission.DECODE" />
+
+    <application
+        android:name=".AutoTranApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher_autotran"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar"
+        android:largeHeap="true"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning, LockedOrientationActivity">
+        <activity android:name=".activities.VinOCRActivity"></activity>
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+        <activity
+            android:name=".activities.UsbPermissionActivity"
+            android:exported="false"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".activities.ErrorActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.AdminActivity"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_autotran"
+            android:label="AutoTran Admin"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activities.DashboardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeliveryVinInspectionActivity"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PreloadActivity"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeliveryActivity"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SupplementalNotesActivity"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activities.DamageSummaryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.VINInspectionActivity"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ShuttleCreateLoadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ShuttleBuildLoadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ShuttleAddVinsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.VINInventoryActivity"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.YardInventoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.YardEntryExitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ReceiveVehicleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PlantReturnActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ShuttleSelectLoadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.InspectVehicleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.VehicleInspectionActivity"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TerminalCodeEnter"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity
+            android:name=".activities.TerminalCodeList"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.ShuttleDestinationListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.ShuttleOriginListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activities.LotCodeEnter"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity
+            android:name=".activities.LotCodeList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ScacCodeEnter"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity
+            android:name=".activities.ScacCodeList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DamageCodeEnter"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity
+            android:name=".activities.DamageCodeList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DamageCodeListSecond"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.UtilitiesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DealerMessagesActivity"
+            android:label="@string/title_activity_dealer_messages"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SignatureActivity"
+            android:label="@string/title_activity_pre_load_signature"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DamageCodeTabbedListActivity"
+            android:label="@string/title_activity_damage_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.VINDetailsActivity"
+            android:label="@string/title_activity_vindetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DealerDetailsActivity"
+            android:label="@string/title_activity_dealer_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.RejectionVINActivity"
+            android:label="@string/title_activity_rejection_vin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.NotesActivity"
+            android:label="@string/title_activity_notes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.NotesListActivity"
+            android:label="@string/title_activity_notes_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CommunicationsActivity"
+            android:label="@string/title_activity_communications"
+            android:parentActivityName=".activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.UploadStatusActivity"
+            android:label="@string/title_activity_upload_status"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ClearLoadActivity"
+            android:label="@string/clearload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SetTerminalActivity"
+            android:label="Set Default Terminal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DrivingLockActivity"
+            android:label="@string/drivingMode"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CheckScannerActivity"
+            android:label="Check the barcode scanner"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ScanSupervisorCodeActivity"
+            android:label="Scan a code and continue if a supervisor card"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ProblemReportActivity"
+            android:label="Report issues on the road."
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DriverMessageDialogActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+
+        <receiver
+            android:name=".receivers.DeviceBootReceiver"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".receivers.RemoteSyncReceiver"
+            android:exported="false"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.cassens.autotran.receivers.RemoteSyncReceiver" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".receivers.DriverActionQueueReceiver"
+            android:exported="false"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.cassens.autotran.receivers.DriverActionQueueReceiver" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receivers.DrivingLockOverrideDoneReceiver"
+            android:exported="false"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.cassens.autotran.receivers.DrivingLockOverrideDoneReceiver" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receivers.WifiStateChangedReceiver"
+            android:exported="false"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receivers.UsbDeviceRemovedReceiver"
+            android:exported="false"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+            </intent-filter>
+            <meta-data android:name=
+                "android.hardware.usb.action.USB_DEVICE_DETACHED"
+                android:resource="@xml/device_filter" />
+        </receiver>
+        <receiver
+            android:name=".receivers.UsbPermissionReceiver"
+            android:exported="false"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.cassens.autotran.usb_permission" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".data.remote.HttpCallIntentService"
+            android:exported="false" />
+
+        <receiver android:name=".data.remote.UploadResultReceiver" />
+
+        <receiver
+            android:name=".data.remote.tasks.TruckEventsRepeatingTask$TruckEventsAlarmReceiver"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.HighClaimsAuditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.LotCodeMessageActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name=".data.remote.S3UploadResultReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="s3_succeeded" />
+                <action android:name="s3_failed" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activities.LossAndDamageActivity"
+            android:configChanges="uiMode"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name=".activities.ViewMessagesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SafeDeliveryActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.sdgsystems.util.DetectedActivitiesIntentService"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

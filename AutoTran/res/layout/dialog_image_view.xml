@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FullScreenDialogLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/dialog_image_area_layout"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dialog_button_layout"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/dialog_vin_num"
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="vin_num"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dialog_image_image"
+            android:layout_below="@+id/dialog_vin_num"
+             />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+
+        android:layout_alignParentBottom="true"
+        android:id="@+id/dialog_button_layout"
+        android:gravity="center_vertical">
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:id="@+id/dialog_image_dismiss" />
+
+            <Button
+                android:layout_weight="1    "
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Delete Image"
+                android:id="@+id/dialog_image_delete" />
+    </LinearLayout>
+</RelativeLayout>

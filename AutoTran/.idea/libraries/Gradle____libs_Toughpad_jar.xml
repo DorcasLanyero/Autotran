@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/Toughpad.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/Toughpad.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

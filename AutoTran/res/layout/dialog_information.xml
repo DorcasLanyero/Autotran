@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/NewInfoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:background="@drawable/info_dialog_bg">
+    <!--android:background="@android:color/transparent"-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/layoutButtonArea"
+        android:background="@drawable/info_sign_border"
+        android:layout_margin="10dp">'
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/info_sign_bg"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp">
+            <LinearLayout
+                android:id="@+id/headerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:gravity="center"
+                    android:text="Attention"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+                <TextView
+                    android:id="@+id/tvSubHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="subheader"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/headerLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDetailedMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:text="details"
+                android:textColor="@color/white"
+                android:textSize="17dp" />
+        </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButtonArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal">>
+
+        <Button
+            android:id="@+id/buttonAcknowledge"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:text="I Understand"
+            android:textSize="16dp" />
+
+        <CheckBox
+            android:id="@+id/checkboxStopShowing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Don't show this message again"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</RelativeLayout>
+

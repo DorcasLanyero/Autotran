@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY supportEmail "epodsupport@cassens.com">
+    <!ENTITY supportPhoneUsa "618–655–2770">
+    <!ENTITY supportPhoneCanada "519-690-2603 x2770">
+    <!ENTITY epodSupportPhoneInfo "EPOD Support:\n&supportPhoneUsa; in US\n&supportPhoneCanada; in Canada">
+]>
+
+<resources>
+
+    <string name="app_name" translatable="false">AutoTran</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="damage_code_title">Inspection</string>
+    <string name="enter_area_code" translatable="false">Area</string>
+    <string name="enter_load_position">Enter Load Position</string>
+    <string name="enter_row" translatable="false">Enter Row</string>
+    <string name="enter_bay" translatable="false">Enter Bay</string>
+    <string name="enter_top_level_code" translatable="false">Enter Top Level Code</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="preload_inspection" translatable="false">Pre-Load Inspection</string>
+    <string name="delivery_inspection" translatable="false">Delivery Inspection</string>
+    <string name="vehicle_inspection" translatable="false">Vehicle Inspection</string>
+    <string name="yard_inventory" translatable="false">Yard Inventory</string>
+    <string name="lot_locate" translatable="false">Lot Locate</string>
+    <string name="yard_entry_exit" translatable="false">Yard Entry/Exit</string>
+    <string name="return_to_plant" translatable="false">Return to Plant</string>
+    <string name="vehicle_inventory" translatable="false">Vehicle Inventory</string>
+    <string name="receive_vehicle" translatable="false">Receive Vehicle</string>
+    <string name="inspect_vehicle" translatable="false">Inspect Vehicle</string>
+    <string name="done" translatable="false">Done</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="start" translatable="false">Start</string>
+    <string name="area" translatable="false">Area</string>
+    <string name="db" translatable="false">D/B</string>
+    <string name="inspection_types" translatable="false">gate/offsite</string>
+    <string name="pos" translatable="false">POS</string>
+    <string name="type" translatable="false">Type</string>
+    <string name="svrty" translatable="false">Severity</string>
+    <string name="special" translatable="false">Special Damage</string>
+    <string name='alert' translatable="false">Attention Areas</string>
+    <string name="reject" translatable="false">Reject</string>
+    <string name="camera" translatable="false">Camera</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="addNotes" translatable="false">Add Notes</string>
+    <string name="notes" translatable="false">Notes</string>
+    <string name="load_info" translatable="false">Loads Information</string>
+    <string name="clearload" translatable="false">Clear Load</string>
+    <string name="drivingMode" translatable="false">Driving Detected</string>
+    <string name="loadchanges" translatable="false">Load Changes</string>
+    <string name="add_note">Notes</string>
+    <string name="drivingModeText">Restricted Activity</string>
+    <string name="drivingOverrideMsg">If you are not driving, wait 20 seconds or press button to unlock the device</string>
+    <string name="drivingOverridePayNumMsg">If you are not driving, wait 20 seconds or enter pay number to unlock device:</string>
+    <string name="drivingOverridePayNumMsg2">Unlocking with your pay number will be reviewed by management.</string>
+    <string name="notDrivingButtonText" translatable="false">I Am Not Driving</string>
+
+    <string-array name="spinner_content" translatable="false">
+        <item>User Type</item>
+        <item>Driver</item>
+        <item>Dealer</item>
+        <item>Supervisor</item>
+    </string-array>
+
+    <string name="title_dialog_truck_position" translatable="false">Set truck position and driven/backed</string>
+    <string-array name="truck_position_opts" translatable="false">
+        <item>--</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4-11</item>
+        <item>5</item>
+        <item>5-11</item>
+        <item>6</item>
+        <item>6-10</item>
+        <item>7</item>
+        <item>8</item>
+        <item>8-10</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>13</item>
+    </string-array>
+
+    <string name="build_shuttle_load" translatable="false">Build the list of Vehicles for the Shuttle Load</string>
+
+    <string name="title_activity_dealer_messages" translatable="false">DealerMessagesActivity</string>
+    <string name="title_activity_pre_load_signature" translatable="false">PreLoadSignatureActivity</string>
+    <string name="title_activity_damage_list" translatable="false">DamageListActivity</string>
+    <string name="title_activity_vindetails" translatable="false">VINDetailsActivity</string>
+    <string name="title_activity_dealer_details" translatable="false">DealerDetailsActivity</string>
+    <string name="title_activity_supervisor_comment" translatable="false">SupervisorCommentActivity</string>
+    <string name="title_activity_rejection_vin" translatable="false">RejectionVINActivity</string>
+    <string name="title_activity_scan_vindelivery" translatable="false">ScanVINDeliveryActivity</string>
+    <string name="title_activity_review_vin" translatable="false">ReviewVINActivity</string>
+    <string name="title_activity_notes" translatable="false">NotesActivity</string>
+    <string name="title_activity_notes_list" translatable="false">NotesListActivity</string>
+    <string name="title_activity_communications" translatable="false">Communications</string>
+    <string name="title_activity_utilities" translatable="false">Utilities</string>
+    <string name="title_activity_upload_status" translatable="false">Upload Status</string>
+    <string name="login_below" translatable="false">Login Below</string>
+    <string name="enter_default_terminal" translatable="false">Enter default terminal:</string>
+    <string name="set_defaults" translatable="false">Set Defaults</string>
+
+
+    <!-- ID-Engine and scan-related strings -->
+    <string name="error_no_scan_service" translatable="false">ID-Engine not installed</string>
+    <string name="error_no_service_long" translatable="false">	AutoTran needs the ID-Engine app installed in order to scan barcodes via the camera.</string>
+    <string name="select_scanner" translatable="false">Pick a scanner</string>
+    <string name="button_continue" translatable="false">Continue</string>
+    <string name="not_connected" translatable="false">Not connected to ID-Engine scanner service</string>
+    <string name="no_scanners_avail_long" translatable="false">	No scanners are available. Install a scanner driver, plug in your scanner, or select a scanner driver in Settings.</string>
+    <string name="no_scanners_avail" translatable="false">No scanners available</string>
+    <string name="selected_scanner_not_avail" translatable="false">Selected scanner not available</string>
+    <string name="selected_scanner_not_avail_long" translatable="false">	Your scanner of choice is not available. Plug in your scanner, or select a different scanner.</string>
+    <string name="settings_init_failed" translatable="false">Could not connect to ID-Engine scanner service</string>
+    <string name="scan_shipping_info" translatable="false">Scan tracking number</string>
+    <string name="scan_entry_dialog_prompt" translatable="false">Please scan a barcode using the laser scanner or the camera scanner. If you are unable to scan the barcode, enter it manually.</string>
+
+    <string-array name="tips">
+        <item>Make sure your ramps are down!</item>
+    </string-array>
+    <string name="add_damage">Damage Found</string>
+    <string name="dispatch_complete">Dispatch complete</string>
+    <string name="load_updated">Load updated</string>
+    <string name="update_needed_msg">There is a new version of Autotran available, please update this application through Airwatch.  If you have any questions please contact your dispatcher.</string>
+    <string name="tips_title">Drop Complete</string>
+    <string name="tips_confirmation">My ramps are down!</string>
+    <string name="tips_textbox_prompt">Enter your pay number to confirm:</string>
+    <string name="force_upload_message">Forcing loads to be uploaded to server</string>
+    <string name="error_wrong_driver_number">Pay Number entered does not match number on file.</string>
+    <string name="call_FMC">Call FMC:  (815) 544-0804</string>
+    <string name="high_claims_warning">WARNING! This delivery is for a high claims dealer!</string>
+    <string name="image_vin_plate_prompt">VIN Plate/Door Jam</string>
+    <string name="image_pick_sheet_prompt">Take a picture of your pick sheet with a signature or stamp from the yard inspector.</string>
+    <string name="image_odometer_prompt">In case a claim is filed on this unit, we need to validate the possibility of travel after delivery. Please take a picture of the vehicle\'s odometer.</string>
+    <string name="sti_in_business_hours_text"> - Delivery might have been during regular delivery hours -</string>
+    <string name="supplemental_notes_uploaded">\u0020***</string>
+    <string name="supervisor_signature">Get Supervisor Signature</string>
+    <string name="awaiting_supervisor_signature">Awaiting Supervisor Signature for Significant Damages</string>
+    <string name="damage_warning">Some damage codes have been entered on this unit during previous moves.  You are not covered for these damages unless you properly note them in accordance with local yard rules.  Codes entered by inspection companies appear in GREEN and do not require additional coverage.</string>
+    <string name="explain_damage">Explain, in detail, how this damage or shortage occurred (describing the exact size of damage):</string>
+    <string name="L_D_disclaimer">This information is for internal use only and will not be displayed on the receipt</string>
+    <string name="proceed_driver_signature">Proceed to Driver Signature</string>
+    <string name="proceed_dealer_signature">Proceed to Dealer Signature</string>
+    <string name="proceed_with_delivery">Proceed with Delivery</string>
+    <string name="proceed_audit_checklist">Proceed to Audit Checklist</string>
+    <string name="units_do_not_match_msg">The number of units you specified do not match the number of Vehicles added to the load. Choose one of the following options to either update or autocorrect the number of units.</string>
+    <string name="vehicles_added">Vehicles added:</string>
+    <string name="vehicles_expected">Expected:</string>
+    <string name="vehicle_count_does_not_match_title">Match #Vehicles to Units Specified</string>
+    <string name="return_supervisor_audit">Return to Supervisor Audit</string>
+    <string name="unattended_delivery_title">Unattended Delivery Confirmation</string>
+    <string name="shuttle_load_default_title">Build Load</string>
+    <string name="shuttle_load_complete_title">Build is Complete</string>
+    <string name="shuttle_build_use_dropdown_msg">Use dropdown above to change load size</string>
+    <string name="scan_vin_to_select">Scan VIN to select</string>
+    <string name="tap_or_scan_vin_to_select">Tap or scan VIN to select</string>
+    <string name="tap_or_scan_vin_to_view">Tap or scan VIN to view</string>
+    <string name="dealer_cant_sign_after_hrs_msg">THIS DEALER DOES NOT ACCEPT AFTER HOURS DELIVERIES!</string>
+    <string name="dealer_cant_sign_dialog_msg">You must get approval from terminal management to deliver without a joint inspection.
+        By entering your pay number, you affirm that your management has provided this approval.</string>
+    <string name="dealer_missing_information">The following information is missing for this dealer:\n</string>
+    <string name = "dealer_missing_information_instructions">Click on the link below to provide the missing information via the Cassens website.</string>
+    <string name = "dealer_missing_information_website"><u>http://dr.cassens.com</u></string>
+    <string name="dealer_unavailable_checkbox_text">\u0020Dealer is unavailable to sign</string>
+    <string name="dealer_contactless_deliveries_no_longer_allowed">COVID-19 contactless deliveries are no longer allowed</string>
+    <string name="dealer_unavailable_signature_text">\*** No signature needed ***\nDealer Unavailable</string>
+    <string name="dealer_unavailable_after_hours">Reason: After hours delivery (STI)</string>
+    <string name="dealer_unavailable_dorts">Reason: Dealer open, but cannot or will not sign</string>
+
+    <string name="contact_support">Issues? Contact EPOD Support:</string>
+    <string name ="call_support">Issues? Call &epodSupportPhoneInfo;</string>
+    <string name="contact_local_management">Please contact local management.</string>
+    <string name="contact_local_mgmt_or_support">Please contact local management or call &epodSupportPhoneInfo;</string>
+    <string name="truck_number_override_msg">If you continue to have conflicts with the truck-supplied number, call &epodSupportPhoneInfo;</string>
+
+    <string name="dorts_instructions">You must get approval from your dispatcher/manager to deliver in this manner.  Please provide the names and information requested below.</string>
+    <string name="dorts_approver_contact_prompt">Name of Dispatcher or Manager</string>
+    <string name="dorts_dealer_contact_prompt">Name of Dealer Contact confirming this condition</string>
+    <string name="person_refusing_prompt">Enter the name of the person who is unavailable or refusing to sign</string>
+    <string name="no_after_hours_deliveries">ARE YOU SURE YOU WANT TO DELIVER STI? (Press CANCEL to change your selection.)\n\nThis dealer does not allow after hours deliveries. Please provide the name of the authorized person who approved this delivery and the reason for the exception.</string>
+    <string name="sti_in_business_hours_long">ARE YOU SURE YOU WANT TO DELIVER STI? (Press CANCEL to change your selection.)\n\nYou appear to be delivering STI during the dealer\'s check-in hours (%s). Please provide the name of the authorized person who approved this delivery and the reason for the exception.</string>
+    <string name="sti_call_ahead">"This dealer requires an advance call to approve After Hours (STI) deliveries. Please provide the name of the authorized person who provided the approval."</string>
+    <string name="enter_pay_number_prompt">Enter your pay number</string>
+    <string name="enter_pay_number_prompt_dealer_refuses_to_sign">Enter your pay number to affirm that the dealer is open, but unavailable to sign</string>
+
+    <string name="supervisor_code_prefix">123451933</string>
+    <string name="delete_prompt">Delete Damage?</string>
+    <string name="supervisor_signature_code">123451933</string>
+    <string name="KEY">key TEXT,</string>
+    <string name="ROW">row TEXT,</string>
+    <string name="ACTION">action TEXT,</string>
+    <string name="MODIFY">MODIFY</string>
+    <string name="clear">Clear</string>
+    <string name="explain_safe">Explain, in detail, why the delivery area was not safe</string>
+    <string-array name="driver_high_claims_questions" translatable="false">
+        <item>Number of preload exceptions were verified and signed off by the appropriate personnel.</item>
+        <item>All decks and sliders were safety pinned during loading.</item>
+        <item>The appropriate tie down bar was used while loading truck.</item>
+        <item>There are proper clearances between loaded cargo units.</item>
+        <item>Vehicle has been strapped properly, using straps in good condition, having all three cleats.</item>
+        <item>There is no contact between any strap and cargo unit.</item>
+        <item>Load height was checked before leaving loading area.</item>
+        <item>Turn and dip clearances were checked after loading and before leaving loading area.</item>
+        <item>All deck slider pins and safety pins have been checked.</item>
+        <item>All post pins are securely set and locked in place.</item>
+        <item>Keys have been removed from vehicles and vehicles are locked.</item>
+        <item>Truck is equipped with a blank paper log and a Keller Roadside Inspection Guide.</item>
+    </string-array>
+    <string name="license_expire_warn">Your driver\'s license will expire in the next 7 days.</string>
+    <string name="license_expire_stop">Your driver\'s license has expired. You can no longer start preloads or shuttle loads.</string>
+
+    <!-- Activity detection strings -->
+    <string name="in_vehicle">In a vehicle</string>
+    <string name="on_bicycle">On a bicycle</string>
+    <string name="on_foot">On foot</string>
+    <string name="running">Running</string>
+    <string name="still">Still</string>
+    <string name="tilting">Tilting</string>
+    <string name="unknown">Unknown activity</string>
+    <string name="walking">Walking</string>
+    <string name="unidentifiable_activity">Unidentifiable activity: %1$d</string>
+    <string name="review">Review</string>
+    <string name="comment">Comment</string>
+    <string name="sti">STI</string>
+    <string name="after_hours_sti">Outside Delivery Hours\n(STI)</string>
+    <string name="dealer_open_refused_to_sign">During Delivery Hours\n(dealer unavailable or refusing to sign)</string>
+    <string name="contact">Contact</string>
+    <string name="no_comments_entered">No Comments Entered</string>
+    <string name="coaching_complete_message">Scan the supervisor tag again to finish coaching.\n\nSupervisor:</string>
+    <string name="coaching_complete_wrong_super_message">Different supervisor tag detected. Scan the same supervisor\'s tag again to finish coaching.\n\nSupervisor:</string>
+    <string name="coaching_complete_invalid_tag_message">Non-supervisor tag detected. Scan the supervisor\'s tag again to finish coaching.\n\nSupervisor:</string>
+    <string name="validation_trailerNum_all_digits">Must be all digits.</string>
+    <string name="validation_trailerNum_min">Must be at least 4000.</string>
+    <string name="validation_trailerNum_max">Must be less than 100,000.</string>
+    <string name="validation_trailerNum_even">Must be even.</string>
+    <string name="validation_trailerNum_general">Must be all digits and between 4000-100000</string>
+    <string name="support_email">&supportEmail;</string>
+    <string name="support_phone_usa">&supportPhoneUsa;</string>
+    <string name="support_phone_canada">&supportPhoneCanada;</string>
+    <string name="shuttle_ambiguous_barcode_scan">If you meant to scan a route code, please use the "Scan Route" button instead.</string>
+    <string name="shuttle_invalid_vin">Scanned barcode is not a valid VIN.</string>
+    <string name="shuttle_vin_on_do_not_ship_list">This VIN cannot be shipped. Please find a different vehicle or contact your dispatch.</string>
+    <string name="shuttle_invalid_route_code">Scanned barcode is not a valid route code.</string>
+    <string name="shuttle_invalid_prod_stat_code">Scanned barcode is not a valid production status code.</string>
+    <string name="shuttle_invalid_code_looks_like_vin">It appears to be a VIN.</string>
+    <string name="title_activity_document_cropper">DocumentCropper</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="dealerInfoIconDefault">INFO</string>
+    <string name="dealerInfoIconNewInfo">NEW\nINFO</string>
+
+    <!-- Permission check string -->
+    <string name="missingAppPermissionsMsgPart1">
+        AutoTran needs you to grant it the following permission(s):
+    </string>
+    <string name="missingAppPermissionsMsgPart2">
+        If you press Set Permissions, you will be taken to the Apps menu of the Android Settings
+        app. To grant the needed permission(s), select AutoTran from menu, then select Permissions
+        and turn on all listed permissions.\n\nWhen you have granted the required permissions,
+        press the back button until you are returned to AutoTran.
+    </string>
+    <string name="website_display_url"> dr.cassens.com </string>
+
+    <string name="valid_vin_characters">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <string name="piccolo_permission_prompt1">
+        This handheld needs permission to access the truck computer. To fix this:
+        \n\nSTEP 1: Undock and re-dock the handheld.
+        \n\nSTEP 2: When you see a dialog like the one below, check the
+        checkbox and press OK to grant permission.
+    </string>
+    <string name="piccolo_permission_prompt2">
+        This will NOT interfere with other apps.
+    </string>
+    <string name="piccolo_redock_title">Please Re-Dock the Handheld</string>
+    <string name="piccolo_redock_prompt">
+        AutoTran is having trouble communicating with the truck computer. Often this occurs
+        when the handheld if rebooted or powered on while docked.  Undocking and re-docking
+        the handheld device will usually re-establish the connection and clear up the problem.
+    </string>
+</resources>

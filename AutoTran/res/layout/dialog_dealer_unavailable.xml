@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+    <com.cassens.autotran.views.CustomScrollView
+        android:id="@+id/driver_num_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dealer_after_hrs_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingStart="5sp"
+                android:paddingEnd="5sp"
+                android:layout_marginBottom="8sp"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:text="@string/dealer_cant_sign_after_hrs_msg" />
+
+            <TextView
+                android:id="@+id/instructions_textbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingStart="5sp"
+                android:paddingEnd="5sp"
+                android:layout_marginBottom="8sp"
+                android:textAlignment="center"
+                android:text="@string/dealer_cant_sign_dialog_msg" />
+
+            <LinearLayout
+                android:id="@+id/driver_num_textbox_border"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp">
+
+                <EditText
+                    android:id="@+id/driver_num_textbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textfield"
+                    android:ellipsize="end"
+                    android:ems="10"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:imeOptions="actionDone"
+                    android:imeActionLabel="DONE"
+                    android:windowSoftInputMode="adjustResize|stateHidden"
+                    android:hint="Driver ID"
+                    android:inputType="number"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/driver_num_button_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5sp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                >
+
+                <Button
+                    android:id="@+id/dorts_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:ems="10"
+                    android:text="@string/dealer_open_refused_to_sign"/>
+
+                <Button
+                    android:id="@+id/after_hours_sti_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:ems="10"
+                    android:text="@string/after_hours_sti"
+                    android:visibility="visible"
+                    />
+                <Button
+                    android:id="@+id/cancel_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:ems="10"
+                    android:text="Cancel"
+                    android:visibility="visible"
+                        />
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.cassens.autotran.views.CustomScrollView>
+
+</LinearLayout>

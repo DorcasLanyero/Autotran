@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dip" >
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <com.sdgsystems.util.ExtendedEditText
+        android:id="@+id/noteBox"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:layout_below="@+id/checkBox"
+        android:hint="Type your note here..."
+        android:textSize="16sp"
+        android:inputType="textMultiLine|textCapSentences"
+        android:text=""
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

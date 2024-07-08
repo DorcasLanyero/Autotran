@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SignatureViewLayout"
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    android:layout_margin="20dp"
+    android:background="@color/lite_lite_lite_gray">
+
+    <LinearLayout
+        android:id="@+id/dialog_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/dialog_signature_cancel"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:rotation="-90"
+            android:textSize="14dp"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/dialog_signature_clear"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:rotation="-90"
+            android:textSize="14dp"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/dialog_signature_review"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:rotation="-90"
+            android:textSize="14dp"
+            android:text="Review" />
+
+        <Button
+            android:id="@+id/dialog_signature_save"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:rotation="-90"
+            android:textSize="14dp"
+            android:text="Save" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="24dp"
+        android:layout_below="@+id/dialog_button_layout"
+        android:layout_toLeftOf="@+id/bottom_layout">
+
+        <com.cassens.autotran.views.SignView
+            android:id="@+id/view_signature"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/signature_type"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-170dp"
+            android:layout_marginTop="210dp"
+            android:gravity="left"
+            android:rotation="-90"
+            android:text="Driver"
+            android:textColor="@color/DarkGray"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sig_overlay_message"
+
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-120dp"
+            android:layout_marginTop="202dp"
+            android:foregroundGravity="center"
+            android:gravity="center_horizontal"
+            android:rotation="-90"
+            android:textSize="16dp" />
+
+
+
+        <LinearLayout
+            android:id="@+id/signature_line_widgets"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="bottom">
+            <TextView
+                android:id="@+id/signature_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:rotation="-90"
+                android:text="x"
+                android:layout_marginBottom="-55dp"
+                android:textColor="#000000"
+                android:textSize="36dp" />
+
+            <View
+                android:id="@+id/signature_line"
+                android:layout_width="1dp"
+                android:layout_height="400dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/signature_prompt"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="60dp"
+                android:layout_marginLeft="-100dp"
+                android:rotation="-90"
+                android:text="Please Sign Here"
+                android:textSize="18dp"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/highlight_box_small"
+        android:layout_alignTop="@id/dialog_button_layout"
+        android:layout_alignBottom="@id/dialog_button_layout"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:background="@drawable/yellow_box"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/highlight_box_large"
+        android:layout_alignTop="@id/dialog_button_layout"
+        android:layout_alignBottom="@id/dialog_button_layout"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:background="@drawable/yellow_box"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="55dp"
+        android:layout_height="445dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/bottom_message"
+
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:rotation="-90"
+            android:textColor="@color/DarkGray"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

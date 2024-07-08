@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maon_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/parentLayout"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/select_box"
+        android:entries="@array/spinner_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver ID"
+        android:textColor="#696969"/>
+
+    <EditText
+        android:id="@+id/driverIDEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/textfield"
+        android:ellipsize="end"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Driver ID"
+        android:textColor="#000000"
+        android:inputType="number">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Truck Number"
+        android:textColor="#696969"/>
+
+    <EditText
+        android:id="@+id/truckIDEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/textfield"
+        android:enabled="false"
+        android:ellipsize="end"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:imeActionLabel="DONE"
+        android:gravity="center"
+        android:hint="Truck ID"
+        android:inputType="number"
+        android:textColor="#000000">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_bg"
+        android:onClick="login"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: __wrapped_aars__::pngquant-android:unspecified@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pngquant-android/build/.transforms/9fb7e53ce9b0c389a1a31b45f46cafd9/transformed/jetified-pngquant-android-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/pngquant-android/build/.transforms/9fb7e53ce9b0c389a1a31b45f46cafd9/transformed/jetified-pngquant-android-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

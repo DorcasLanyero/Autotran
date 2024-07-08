@@ -1,0 +1,41 @@
+## The example version of this file, local.properties.example, is checked
+# into Version Control Systems and should NOT be deleted. It is a template
+# for creating your own custom private local.properties file.
+#
+# To create your private local.properties file, Copy local.properties.example
+# to local.properties in your top level build directory, then change the
+# line that sets the autotran.apiUrl to the url of the server you want to
+# use for your build.
+#
+# Your private local.properties file must *NOT* be checked into Version
+# Control Systems, as it contains information specific to your local config.
+#
+# Here are the test servers:
+#     https://sdgsystems.net/AutoTranAdmin-ben/
+#     https://sdgsystems.net/AutoTranAdmin-demo/
+#     https://sdgsystems.net/AutoTranAdmin-adam/
+#     https://sdgsystems.net/AutoTranAdmin-phil/
+#     https://demo.mobiers.com/autotran/
+#     https://autotran-test.sdgsystems.net/ - Default instance for dev builds
+#
+# The production server is:
+#     https://autotranadmin-env-9rvvkiwnzp.elasticbeanstalk.com/
+#
+# Location of the SDK. This is only used by Gradle.
+# For customization when using a Version Control System, please read the
+# header note.
+ndk.dir=/home/pknight/Android/Sdk/ndk-bundle
+sdk.dir=/home/pknight/Android/Sdk
+autotran.apiUrl="https://sdgsystems.net/AutoTranAdmin-demo/"
+#autotran.apiUrl="https://autotranadmin-env-9rvvkiwnzp.elasticbeanstalk.com/"
+#autotran.apiUrl="https://sdgsystems.net/AutoTranAdmin-adam/"
+#autotran.apiUrl="https://sdgsystems.net/AutoTranAdmin-ben/"
+#autotran.apiUrl="https://autotran-test.sdgsystems.net/"
+#autotran.apiUrl="https://sdgsystems.net/AutoTranAdmin-phil/"
+
+#autotran.validateVins=false
+autotran.vinScanOptional=true
+autotran.supervisorScanOptional=true
+#autotran.showActivityToast=true
+#autotran.truckHack=true
+#autotran.strictMode=false

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+   
+    <string-array name="predefined_notes_damage" tools:ignore="MissingTranslation"> 
+        <item>Wave in metal</item> 
+		<item>Paint defect</item>
+		<item>Scratch goes underneath moulding, trim..</item>
+		<item>Window stress breakage</item>
+		<item>Inside out dent</item>
+		<item>Not transportation damage</item>
+		<item>Factory defect</item>
+		<item>Will buff out</item>
+		<item>Factory plastic flapped causing scuffs</item>
+		<item>Hail damage</item>
+		<item>Screw in tire</item>
+		<item >Scratch will buff out</item>
+                <item >No Damages, No Shortages</item>
+                <item >All Loose Shipped Items Sealed In Bag</item>
+    </string-array>
+    
+    <string-array name="predefined_notes_preload_signature" tools:ignore="MissingTranslation">
+		<item>SNOW OR ICE COVERED</item>
+		<item>NOTED ON PRELOAD</item>
+		<item>INADEQUATE LIGHTING COULD NOT INSPECT</item>        
+    </string-array>
+    
+    <string-array name="predefined_notes_delivery_signature" tools:ignore="MissingTranslation">
+		<item>Dealer open, refused to check in vehicles.  Not STI</item>
+		<item>Top Surface / Clear coat issue only</item>
+		<item>Finesse buffing - FORD Only</item>
+		<item>Damage Codes Do Not Apply (Factory/Warranty/Not Transportation Issue)</item>
+		<item>Item Not Listed on VSO</item>
+		<item>Item Missing from Sealed Bag / Box (Factory)</item>
+		<item>Damage Found Under Plastic / Plastic Not Damaged</item>
+		<item>Stress Crack from Leading Edge Outward</item>
+		<item>Stress Breakage - No Point of Impact or Object In Unit</item>
+		<item>Tire Flat / No Sign of Abuse or Puncture</item>
+		<item>Tire Flat / Object Found in Tread / Sidewall OK</item>
+		<item>Tire Flat / Manufacturer’s Bolt / Screw in Tire  </item>
+		<item>Chip or Scratch on Panel Edge / Touch Up Only (Use code 34)</item>
+		<item>Factory Condition (Dealer Must Agree)</item>
+		<item>Damage Caused when Item was Installed At Factory</item>
+		<item>Damage due to Part Coming Loose / Manufacturing Issue</item>
+		<item>Damage caused by Plastic Coming Loose in Transit - Not Transportation</item>
+		<item>Item Not Installed or Adhesive Failed</item>
+		<item>Owner\'s Manual Missing</item>
+		<item>Disagree with Codes Noted by Dealer</item>
+		<item>Inside Out Dent OR Wavy Sheet Metal - Factory</item>
+		<item>Misaligned Panel - Factory Defect</item>
+		<item>Dirt / Runs / Sags in Paint</item>
+		<item>Painted Over Scratch</item>
+		<item>Condition Touched Up By Factory</item>
+		<item>Paint Issue Only / Material Not Affected</item>
+		<item>Delivered During Delivery Hours - No One to Check In Units</item>
+		<item>All Loose Items Present BAG / BOX SEALED</item>
+		<item>No Visible Damages</item>
+		<item>Unit(s) Covered in Plastic / Plastic Not Damaged</item>
+		<item>Inaddequate Lighting, Cannot Inspect</item>
+        <item>No Damages, No Shortages</item>
+    </string-array>        
+    
+    <string-array name="predefined_notes_rejection_reasons" tools:ignore="MissingTranslation">
+		<item>UNIT IS LOST.</item>
+		<item>UNIT WAS FOUND WITH DAMAGE.</item>
+		<item>UNIT WAS DAMAGED BY DRIVER.</item>
+		<item>LOAD WAS BUILT TO BIG FOR EQUIPMENT.</item>
+		<item>DEALER WENT ON HOLD.</item>
+		<item>PLANT HOLD FOR BAD PARTS OR MISSING ITEMS.</item>
+		<item>UNIT WAS REASSIGNED TO ANOTHER DEALER.</item>        
+    </string-array>
+
+	<string-array name="problem_report_categorgies" tools:ignore="MissingTranslation">
+		<item>Choose a category to continue...</item>
+        <item>Yard/Loading</item>
+		<item>Dealership/Unloading</item>
+		<item>Accident</item>
+		<item>Road Conditions</item>
+		<item>Other</item>
+	</string-array>
+    
+</resources>

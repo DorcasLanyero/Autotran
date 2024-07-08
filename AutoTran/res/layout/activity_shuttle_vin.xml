@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maon_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/parentLayout"
+    >
+
+    <LinearLayout
+        android:id="@+id/vinSelectTopBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bar_bg"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/backButtonImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="back"
+            android:src="@drawable/back_button" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/titleViewLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/titleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Shuttle Load"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/loadNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titleTextView"
+                    android:layout_weight="1"
+                    android:text="Load#"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#F6F6F6"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/invisiblePlaceholderForCentering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/back_button"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/progress"
+        android:layout_below="@+id/vinSelectTopBar">
+
+        <TextView
+            android:id="@+id/vehicleCountProgressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="0/17"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/scan_vin"
+        android:layout_below="@+id/progress">
+
+        <TextView
+            android:id="@+id/enterShuttleLoadVinEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="65"
+            android:background="@drawable/textfield"
+            android:gravity="center_vertical"
+            android:hint="VIN"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:id="@+id/vinScan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:background="@drawable/black_button"
+            android:text="Scan\nVIN"
+            android:textColor="#FFF"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/scan_production_status"
+        android:layout_below="@+id/scan_vin">
+
+        <EditText
+            android:id="@+id/enterShuttleLoadProductionStatusEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="65"
+            android:background="@drawable/textfield"
+            android:hint="Production Status"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry"
+            android:imeOptions="actionDone"
+            android:inputType="text|textNoSuggestions|textCapCharacters"
+            android:nextFocusRight="@+id/enterShuttleLoadVinEditText"
+            android:nextFocusDown="@+id/enterShuttleLoadVinEditText"
+            android:nextFocusForward="@+id/enterShuttleLoadVinEditText" />
+
+        <Button
+            android:id="@+id/productionStatusScan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:background="@drawable/black_button"
+            android:text="Scan\nProduction Status"
+            android:textColor="#FFF"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/scan_route"
+        android:layout_below="@+id/scan_production_status">
+
+        <EditText
+            android:id="@+id/enterShuttleLoadRouteEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="65"
+            android:background="@drawable/textfield"
+            android:hint="Route"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry"
+            android:imeOptions="actionDone"
+            android:inputType="text|textNoSuggestions|textCapCharacters" />
+
+        <Button
+            android:id="@+id/routeScan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:background="@drawable/black_button"
+            android:text="Scan\nRoute"
+            android:textColor="#FFF"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/messageBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/DarkGreen"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/scan_route"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/save_inspect_return"
+        android:layout_above="@+id/saveAndContinueButton">
+
+        <Button
+            android:id="@+id/inspectVehicleButton"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="50"
+            android:background="@drawable/black_button"
+            android:padding="10dp"
+            android:text="Save and Inspect"
+            android:textColor="#FFF"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/returnToListButton"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="50"
+            android:background="@drawable/black_button"
+            android:onClick="finishActivity"
+            android:padding="10dp"
+            android:text="Return to List"
+            android:textColor="#FFF"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveAndContinueButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/black_button"
+        android:onClick="finishActivity"
+        android:padding="10dp"
+        android:text="Save And Continue"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

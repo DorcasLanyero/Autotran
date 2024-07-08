@@ -1,0 +1,1516 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:64:9-72:20
+	android:grantUriPermissions
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:68:13-47
+	android:authorities
+		INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:66:13-60
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:65:13-62
+manifest
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:2:1-397:12
+INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:2:1-397:12
+INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:2:1-397:12
+INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:2:1-397:12
+MERGED from [com.sdgsystems.idengine.api.aar] /Users/dorcaslanyero/.gradle/caches/transforms-3/1441c9c0301ef735c9ed9cea6fde1775/transformed/jetified-com.sdgsystems.idengine.api/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.work:work-runtime-ktx:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/377cbbb5f67455d8075c774e675c36f5/transformed/work-runtime-ktx-2.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/4ef0968a7f9e5a6a8286ad2aeb18841e/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/dorcaslanyero/.gradle/caches/transforms-3/233f8bc04f1660b4033dd58a2252db56/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c3cc6897bbadbeca5c7370a13fca1a8e/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/42ad9293b81bd949ebb95e3a5ffa498d/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8cddab13dd6beb498d77d7030e723bca/transformed/gridlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/90ee1686afa8215f4f56e95defe614fd/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/09db23c93912103764cb600587d1153f/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/172b7c34d0f3fa863c31f8a91fe2b806/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2d11d33de4159ddd91e329a926a4ac71/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a54e168b97c164a38b9ee4eee9166431/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/efe38ee9e9e3fc13b98f722572d59e51/transformed/jetified-play-services-vision-15.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [me.drakeet.support:toastcompat:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/7d3b805ed200bb17f67892ef0cf3f818/transformed/jetified-toastcompat-1.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/4c9fed62ae22585d7d485e46efac2445/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/7cace23c505c56f59f831d9248a71874/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.github.felHR85:UsbSerial:6.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/babf950ef8a494b7eb830ac7e575e53d/transformed/jetified-UsbSerial-6.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [:pngquant-android] /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/pngquant-android/build/.transforms/9fb7e53ce9b0c389a1a31b45f46cafd9/transformed/jetified-pngquant-android-release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/17bd3ab7b0ab86e86176ae3a7f5bc6a0/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/89418e5042daabe0d338c55226dd4823/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5a2dd917b188abe63869c0d334b023f/transformed/sqlite-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/41d086f0da4816b78026dc35437b3668/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/dorcaslanyero/.gradle/caches/transforms-3/c36307e62ae5a59279844572f3109cf2/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/5bf253ee6446bb7f21f1a7ef13cf5fc9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f5fed9a294d32ef146a310c7508bc7/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b56d84b0d77514b5bb0a8085b0f0c2b3/transformed/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e8b4644fbbf71146727a59968f0d2d5c/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/71bb914ae2bb75d38f70ec9c00d9c338/transformed/jetified-play-services-vision-common-15.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/b13c67e9a91e14beeb2638965fb3ec1b/transformed/jetified-play-services-clearcut-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d81d17931aadcd6e4c6ba8acfab167d6/transformed/jetified-play-services-flags-15.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d6336f681efeb93f9c1e127f5a7a191b/transformed/jetified-play-services-phenotype-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d096ca0eb2216ba2655cf1bfb53082aa/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/f88f3f70a0eae9a3b503870a6043a4bd/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8e64ca03c28699dcbda0a491663ac133/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2196ec48a2ad43f7c3a7b2e4f7bd56f5/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/3a662f98a6ce4b7b7fba3661c7b72830/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b29432626866ae8af537df211276f250/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/35ac2ca39fb97301687e09210c597878/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/dorcaslanyero/.gradle/caches/transforms-3/3caa29d49f050f94628a324e2a8889b9/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8b8a227373cc5bfa949db3845c5fdbc2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2696c2cecfb4eeeb73c7cfd1004446b3/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/5f2d569cf0fa33d2f5be13c3d19a80dd/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/5ec5b5f17c71fb1180396621a5ce0021/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/57773692f1f67c63edd8cd079269e5ae/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8cd9483714ef2f3897b6e3e9642d033c/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/d9deb28c2a8319eef2a3091209cd6ef9/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/78f979f458386384f90f1dfcd8886d46/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6180dca785b165aef3313080b5d8c899/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/35df6fcacbf76be5f51311fedd134c82/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b33ad4568ec92dd2c89b845b422ab914/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/1af2cdf86df8eba46bdc2f6321aa0eb8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/5ba3a24e5434b43622670af32c529e10/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/be6959be07f563337def10b4dc2f5c22/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/fcab3a6592b44e67e96951612bdcb99f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/4b4f9fe11d284788c5465f32d8965d30/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/91051a586aa4062eaa16448d65b1c0e7/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/84972827205ee303b5c51056a68332cd/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/7d39ebe4adf729027e7149f691b25e74/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/bedb83cd2ee1d91e37b3d9150ad9564b/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2d2214f887e583dab2cbc883ce8706fa/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/9840354c91985eebd825440c7b1ca88a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/3f7ec1d9b943c7a735b88bc8b8b70de5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/fa31b8144f96954f4a613676fe73fdf1/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/74910c9ec9cf2168c0260cf9873883b4/transformed/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b3cdd2562759dff0bdf82637c36ec081/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/02757fdd5982c458bbbac28d5523cf25/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/0e624c91d86477c7225bbd7325063d89/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/47a8be542c8cb56f2d00abc417b471b9/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/0161c3d170f99a502f072882465eeb08/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/1ad1a1f0a410f5d5cd15d10b786b722d/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/68dbc24a2450a9b25eb014465b6ca05f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:2:1-397:12
+INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:2:1-397:12
+INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:2:1-397:12
+	package
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:4:5-35
+		INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+		INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:2:1-397:12
+		INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:2:1-397:12
+		INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:6:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:7:19-67
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:9:22-73
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:10:22-66
+uses-permission#android.permission.CAMERA
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:11:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2196ec48a2ad43f7c3a7b2e4f7bd56f5/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2196ec48a2ad43f7c3a7b2e4f7bd56f5/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.NFC
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:13:5-62
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:13:22-59
+uses-permission#android.permission.READ_PRIVILEGED_PHONE_STATE
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:14:5-86
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:14:22-83
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:16:5-68
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:23:5-68
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:23:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2196ec48a2ad43f7c3a7b2e4f7bd56f5/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2196ec48a2ad43f7c3a7b2e4f7bd56f5/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:16:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:17:5-79
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2196ec48a2ad43f7c3a7b2e4f7bd56f5/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2196ec48a2ad43f7c3a7b2e4f7bd56f5/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:19:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:20:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:21:5-85
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:21:22-82
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:22:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:23:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:25:5-65
+MERGED from [com.sdgsystems.idengine.api.aar] /Users/dorcaslanyero/.gradle/caches/transforms-3/1441c9c0301ef735c9ed9cea6fde1775/transformed/jetified-com.sdgsystems.idengine.api/AndroidManifest.xml:11:5-66
+MERGED from [com.sdgsystems.idengine.api.aar] /Users/dorcaslanyero/.gradle/caches/transforms-3/1441c9c0301ef735c9ed9cea6fde1775/transformed/jetified-com.sdgsystems.idengine.api/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:25:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:26:5-80
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:25:5-81
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:26:22-78
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:27:22-79
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:30:5-94
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:30:22-91
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:31:5-78
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:31:22-75
+uses-feature#android.hardware.usb.host
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:33:5-62
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:33:19-59
+uses-permission#com.honeywell.decode.permission.DECODE
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:35:5-78
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:35:22-75
+application
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:37:5-395:19
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/4ef0968a7f9e5a6a8286ad2aeb18841e/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/4ef0968a7f9e5a6a8286ad2aeb18841e/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/dorcaslanyero/.gradle/caches/transforms-3/233f8bc04f1660b4033dd58a2252db56/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/dorcaslanyero/.gradle/caches/transforms-3/233f8bc04f1660b4033dd58a2252db56/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a54e168b97c164a38b9ee4eee9166431/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a54e168b97c164a38b9ee4eee9166431/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/efe38ee9e9e3fc13b98f722572d59e51/transformed/jetified-play-services-vision-15.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/efe38ee9e9e3fc13b98f722572d59e51/transformed/jetified-play-services-vision-15.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/4c9fed62ae22585d7d485e46efac2445/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/4c9fed62ae22585d7d485e46efac2445/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/7cace23c505c56f59f831d9248a71874/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/7cace23c505c56f59f831d9248a71874/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/41d086f0da4816b78026dc35437b3668/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/41d086f0da4816b78026dc35437b3668/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/dorcaslanyero/.gradle/caches/transforms-3/c36307e62ae5a59279844572f3109cf2/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/dorcaslanyero/.gradle/caches/transforms-3/c36307e62ae5a59279844572f3109cf2/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/71bb914ae2bb75d38f70ec9c00d9c338/transformed/jetified-play-services-vision-common-15.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/71bb914ae2bb75d38f70ec9c00d9c338/transformed/jetified-play-services-vision-common-15.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/b13c67e9a91e14beeb2638965fb3ec1b/transformed/jetified-play-services-clearcut-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/b13c67e9a91e14beeb2638965fb3ec1b/transformed/jetified-play-services-clearcut-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d6336f681efeb93f9c1e127f5a7a191b/transformed/jetified-play-services-phenotype-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d6336f681efeb93f9c1e127f5a7a191b/transformed/jetified-play-services-phenotype-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d096ca0eb2216ba2655cf1bfb53082aa/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d096ca0eb2216ba2655cf1bfb53082aa/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/f88f3f70a0eae9a3b503870a6043a4bd/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/f88f3f70a0eae9a3b503870a6043a4bd/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8e64ca03c28699dcbda0a491663ac133/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8e64ca03c28699dcbda0a491663ac133/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/3a662f98a6ce4b7b7fba3661c7b72830/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/3a662f98a6ce4b7b7fba3661c7b72830/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b29432626866ae8af537df211276f250/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b29432626866ae8af537df211276f250/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/dorcaslanyero/.gradle/caches/transforms-3/3caa29d49f050f94628a324e2a8889b9/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/dorcaslanyero/.gradle/caches/transforms-3/3caa29d49f050f94628a324e2a8889b9/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8b8a227373cc5bfa949db3845c5fdbc2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8b8a227373cc5bfa949db3845c5fdbc2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/be6959be07f563337def10b4dc2f5c22/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/be6959be07f563337def10b4dc2f5c22/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/fcab3a6592b44e67e96951612bdcb99f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/fcab3a6592b44e67e96951612bdcb99f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/3f7ec1d9b943c7a735b88bc8b8b70de5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/3f7ec1d9b943c7a735b88bc8b8b70de5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/be6959be07f563337def10b4dc2f5c22/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:41:9-41
+	tools:ignore
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:45:9-75
+	android:largeHeap
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:43:9-33
+	android:icon
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:40:9-54
+	android:allowBackup
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:39:9-36
+	android:theme
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:42:9-62
+	android:usesCleartextTraffic
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:44:9-44
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:38:9-44
+activity#com.cassens.autotran.activities.VinOCRActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:46:9-72
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:46:19-60
+uses-library#org.apache.http.legacy
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:48:9-87
+	android:required
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:48:61-85
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:48:23-60
+activity#com.cassens.autotran.activities.UsbPermissionActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:50:9-62:20
+	android:launchMode
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:53:13-48
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:51:13-61
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED+action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:54:13-57:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:55:17-90
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:55:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:59:13-61:57
+	android:resource
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:61:17-54
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:60:17-79
+activity#com.cassens.autotran.activities.ErrorActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:74:9-77:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:77:13-49
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:76:13-36
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:75:13-53
+activity#com.cassens.autotran.activities.SplashActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:78:9-87:20
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:81:13-49
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:80:13-36
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:79:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:82:13-86:29
+action#android.intent.action.MAIN
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:83:17-69
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:83:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:85:27-74
+activity#com.cassens.autotran.activities.AdminActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:88:9-99:20
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:93:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:92:13-43
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:90:13-36
+	android:icon
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:91:13-58
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:89:13-53
+activity#com.cassens.autotran.activities.LoginActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:100:9-102:51
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:101:13-53
+activity#com.cassens.autotran.activities.DashboardActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:103:9-105:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:105:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:104:13-57
+activity#com.cassens.autotran.activities.DeliveryVinInspectionActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:106:9-109:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:109:13-49
+	android:configChanges
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:108:13-43
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:107:13-69
+activity#com.cassens.autotran.activities.PreloadActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:110:9-113:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:113:13-49
+	android:configChanges
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:112:13-43
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:111:13-55
+activity#com.cassens.autotran.activities.DeliveryActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:114:9-117:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:117:13-49
+	android:configChanges
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:116:13-43
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:115:13-56
+activity#com.cassens.autotran.activities.SupplementalNotesActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:118:9-122:70
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:121:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:122:13-67
+	android:configChanges
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:120:13-43
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:119:13-65
+activity#com.cassens.autotran.activities.DamageSummaryActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:123:9-125:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:125:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:124:13-61
+activity#com.cassens.autotran.activities.VINInspectionActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:126:9-129:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:129:13-49
+	android:configChanges
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:128:13-43
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:127:13-61
+activity#com.cassens.autotran.activities.ShuttleCreateLoadActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:130:9-132:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:132:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:131:13-65
+activity#com.cassens.autotran.activities.ShuttleBuildLoadActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:133:9-135:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:135:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:134:13-64
+activity#com.cassens.autotran.activities.ShuttleAddVinsActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:136:9-138:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:138:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:137:13-62
+activity#com.cassens.autotran.activities.VINInventoryActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:139:9-142:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:142:13-49
+	android:configChanges
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:141:13-43
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:140:13-60
+activity#com.cassens.autotran.activities.YardInventoryActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:143:9-145:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:145:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:144:13-61
+activity#com.cassens.autotran.activities.YardEntryExitActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:146:9-148:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:148:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:147:13-61
+activity#com.cassens.autotran.activities.ReceiveVehicleActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:149:9-151:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:151:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:150:13-62
+activity#com.cassens.autotran.activities.PlantReturnActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:152:9-154:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:154:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:153:13-59
+activity#com.cassens.autotran.activities.ShuttleSelectLoadActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:155:9-157:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:157:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:156:13-65
+activity#com.cassens.autotran.activities.InspectVehicleActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:158:9-160:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:160:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:159:13-62
+activity#com.cassens.autotran.activities.VehicleInspectionActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:161:9-164:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:164:13-49
+	android:configChanges
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:163:13-43
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:162:13-65
+activity#com.cassens.autotran.activities.TerminalCodeEnter
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:165:9-168:68
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:167:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:168:13-65
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:166:13-57
+activity#com.cassens.autotran.activities.TerminalCodeList
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:169:9-172:63
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:171:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:172:13-60
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:170:13-56
+activity#com.cassens.autotran.activities.ShuttleDestinationListActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:173:9-176:63
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:175:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:176:13-60
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:174:13-70
+activity#com.cassens.autotran.activities.ShuttleOriginListActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:177:9-180:63
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:179:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:180:13-60
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:178:13-65
+activity#com.cassens.autotran.activities.LotCodeEnter
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:181:9-184:68
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:183:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:184:13-65
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:182:13-52
+activity#com.cassens.autotran.activities.LotCodeList
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:185:9-187:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:187:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:186:13-51
+activity#com.cassens.autotran.activities.ScacCodeEnter
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:188:9-191:68
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:190:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:191:13-65
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:189:13-53
+activity#com.cassens.autotran.activities.ScacCodeList
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:192:9-194:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:194:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:193:13-52
+activity#com.cassens.autotran.activities.DamageCodeEnter
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:195:9-198:68
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:197:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:198:13-65
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:196:13-55
+activity#com.cassens.autotran.activities.DamageCodeList
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:199:9-201:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:201:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:200:13-54
+activity#com.cassens.autotran.activities.DamageCodeListSecond
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:202:9-204:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:204:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:203:13-60
+activity#com.cassens.autotran.activities.UtilitiesActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:205:9-207:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:207:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:206:13-57
+activity#com.cassens.autotran.activities.DealerMessagesActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:208:9-211:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:211:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:210:13-67
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:209:13-62
+activity#com.cassens.autotran.activities.SignatureActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:212:9-216:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:216:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:214:13-70
+	android:configChanges
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:215:13-43
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:213:13-57
+activity#com.cassens.autotran.activities.DamageCodeTabbedListActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:217:9-220:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:220:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:219:13-63
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:218:13-68
+activity#com.cassens.autotran.activities.VINDetailsActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:221:9-224:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:224:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:223:13-62
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:222:13-58
+activity#com.cassens.autotran.activities.DealerDetailsActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:225:9-228:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:228:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:227:13-66
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:226:13-61
+activity#com.cassens.autotran.activities.RejectionVINActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:229:9-232:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:232:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:231:13-65
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:230:13-60
+activity#com.cassens.autotran.activities.NotesActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:233:9-236:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:236:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:235:13-57
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:234:13-53
+activity#com.cassens.autotran.activities.NotesListActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:237:9-240:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:240:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:239:13-62
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:238:13-57
+activity#com.cassens.autotran.activities.CommunicationsActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:241:9-245:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:245:13-49
+	android:parentActivityName
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:244:13-67
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:243:13-66
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:242:13-62
+activity#com.cassens.autotran.activities.UploadStatusActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:246:9-249:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:249:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:248:13-65
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:247:13-60
+activity#com.cassens.autotran.activities.ClearLoadActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:250:9-253:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:253:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:252:13-46
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:251:13-57
+activity#com.cassens.autotran.activities.SetTerminalActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:254:9-257:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:257:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:256:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:255:13-59
+activity#com.cassens.autotran.activities.DrivingLockActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:258:9-262:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:262:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:260:13-48
+	android:theme
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:261:13-56
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:259:13-59
+activity#com.cassens.autotran.activities.CheckScannerActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:263:9-266:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:266:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:265:13-54
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:264:13-60
+activity#com.cassens.autotran.activities.ScanSupervisorCodeActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:267:9-270:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:270:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:269:13-74
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:268:13-66
+activity#com.cassens.autotran.activities.ProblemReportActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:271:9-275:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:275:13-49
+	android:label
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:273:13-55
+	android:configChanges
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:274:13-43
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:272:13-61
+activity#com.cassens.autotran.activities.DriverMessageDialogActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:276:9-280:56
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:279:13-49
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:278:13-36
+	android:theme
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:280:13-53
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:277:13-67
+receiver#com.cassens.autotran.receivers.DeviceBootReceiver
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:282:9-291:20
+	android:enabled
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:285:13-35
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:284:13-36
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:283:13-57
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:286:13-290:29
+category#android.intent.category.DEFAULT
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:287:17-76
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:287:27-73
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:288:17-79
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:288:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:289:17-82
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:289:25-79
+receiver#com.cassens.autotran.receivers.RemoteSyncReceiver
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:293:9-302:20
+	android:enabled
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:296:13-35
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:295:13-37
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:294:13-57
+intent-filter#action:name:com.cassens.autotran.receivers.RemoteSyncReceiver+category:name:android.intent.category.DEFAULT
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:297:13-301:29
+action#com.cassens.autotran.receivers.RemoteSyncReceiver
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:298:17-92
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:298:25-89
+receiver#com.cassens.autotran.receivers.DriverActionQueueReceiver
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:304:9-313:20
+	android:enabled
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:307:13-35
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:306:13-37
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:305:13-64
+intent-filter#action:name:com.cassens.autotran.receivers.DriverActionQueueReceiver+category:name:android.intent.category.DEFAULT
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:308:13-312:29
+action#com.cassens.autotran.receivers.DriverActionQueueReceiver
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:309:17-99
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:309:25-96
+receiver#com.cassens.autotran.receivers.DrivingLockOverrideDoneReceiver
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:314:9-323:20
+	android:enabled
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:317:13-35
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:316:13-37
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:315:13-70
+intent-filter#action:name:com.cassens.autotran.receivers.DrivingLockOverrideDoneReceiver+category:name:android.intent.category.DEFAULT
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:318:13-322:29
+action#com.cassens.autotran.receivers.DrivingLockOverrideDoneReceiver
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:319:17-105
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:319:25-102
+receiver#com.cassens.autotran.receivers.WifiStateChangedReceiver
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:324:9-332:20
+	android:enabled
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:327:13-35
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:326:13-37
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:325:13-63
+intent-filter#action:name:android.net.wifi.STATE_CHANGE+action:name:android.net.wifi.WIFI_STATE_CHANGED
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:328:13-331:29
+action#android.net.wifi.WIFI_STATE_CHANGED
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:329:17-78
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:329:25-75
+action#android.net.wifi.STATE_CHANGE
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:330:17-72
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:330:25-69
+receiver#com.cassens.autotran.receivers.UsbDeviceRemovedReceiver
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:333:9-342:20
+	android:enabled
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:335:13-35
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:334:13-37
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:333:19-69
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_DETACHED
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:336:13-338:29
+action#android.hardware.usb.action.USB_DEVICE_DETACHED
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:337:17-90
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:337:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_DETACHED
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:339:13-341:57
+	android:resource
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:341:17-54
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:339:24-103
+receiver#com.cassens.autotran.receivers.UsbPermissionReceiver
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:343:9-350:20
+	android:enabled
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:346:13-35
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:345:13-37
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:344:13-60
+intent-filter#action:name:com.cassens.autotran.usb_permission
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:347:13-349:29
+action#com.cassens.autotran.usb_permission
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:348:17-78
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:348:25-75
+service#com.cassens.autotran.data.remote.HttpCallIntentService
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:352:9-354:40
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:354:13-37
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:353:13-62
+receiver#com.cassens.autotran.data.remote.UploadResultReceiver
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:356:9-70
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:356:19-67
+receiver#com.cassens.autotran.data.remote.tasks.TruckEventsRepeatingTask$TruckEventsAlarmReceiver
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:358:9-360:40
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:360:13-37
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:359:13-96
+activity#com.cassens.autotran.activities.HighClaimsAuditActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:362:9-364:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:364:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:363:13-63
+activity#com.cassens.autotran.activities.LotCodeMessageActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:365:9-367:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:367:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:366:13-62
+receiver#com.cassens.autotran.data.remote.S3UploadResultReceiver
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:369:9-377:20
+	android:enabled
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:371:13-35
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:372:13-37
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:370:13-63
+intent-filter#action:name:s3_failed+action:name:s3_succeeded
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:373:13-376:29
+action#s3_succeeded
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:374:17-55
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:374:25-52
+action#s3_failed
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:375:17-52
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:375:25-49
+activity#com.cassens.autotran.activities.LossAndDamageActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:379:9-383:76
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:382:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:383:13-73
+	android:configChanges
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:381:13-43
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:380:13-61
+activity#com.cassens.autotran.activities.ViewMessagesActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:384:9-386:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:386:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:385:13-60
+activity#com.cassens.autotran.activities.SafeDeliveryActivity
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:387:9-389:52
+	android:screenOrientation
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:389:13-49
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:388:13-60
+service#com.sdgsystems.util.DetectedActivitiesIntentService
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:391:9-393:40
+	android:exported
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:393:13-37
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:392:13-79
+uses-sdk
+INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+MERGED from [com.sdgsystems.idengine.api.aar] /Users/dorcaslanyero/.gradle/caches/transforms-3/1441c9c0301ef735c9ed9cea6fde1775/transformed/jetified-com.sdgsystems.idengine.api/AndroidManifest.xml:7:5-9:41
+MERGED from [com.sdgsystems.idengine.api.aar] /Users/dorcaslanyero/.gradle/caches/transforms-3/1441c9c0301ef735c9ed9cea6fde1775/transformed/jetified-com.sdgsystems.idengine.api/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.work:work-runtime-ktx:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/377cbbb5f67455d8075c774e675c36f5/transformed/work-runtime-ktx-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/377cbbb5f67455d8075c774e675c36f5/transformed/work-runtime-ktx-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/4ef0968a7f9e5a6a8286ad2aeb18841e/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/4ef0968a7f9e5a6a8286ad2aeb18841e/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/dorcaslanyero/.gradle/caches/transforms-3/233f8bc04f1660b4033dd58a2252db56/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/dorcaslanyero/.gradle/caches/transforms-3/233f8bc04f1660b4033dd58a2252db56/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c3cc6897bbadbeca5c7370a13fca1a8e/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c3cc6897bbadbeca5c7370a13fca1a8e/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/42ad9293b81bd949ebb95e3a5ffa498d/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/42ad9293b81bd949ebb95e3a5ffa498d/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8cddab13dd6beb498d77d7030e723bca/transformed/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8cddab13dd6beb498d77d7030e723bca/transformed/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/90ee1686afa8215f4f56e95defe614fd/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/90ee1686afa8215f4f56e95defe614fd/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/09db23c93912103764cb600587d1153f/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/09db23c93912103764cb600587d1153f/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/172b7c34d0f3fa863c31f8a91fe2b806/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/172b7c34d0f3fa863c31f8a91fe2b806/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2d11d33de4159ddd91e329a926a4ac71/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2d11d33de4159ddd91e329a926a4ac71/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a54e168b97c164a38b9ee4eee9166431/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a54e168b97c164a38b9ee4eee9166431/transformed/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/efe38ee9e9e3fc13b98f722572d59e51/transformed/jetified-play-services-vision-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/efe38ee9e9e3fc13b98f722572d59e51/transformed/jetified-play-services-vision-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [me.drakeet.support:toastcompat:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/7d3b805ed200bb17f67892ef0cf3f818/transformed/jetified-toastcompat-1.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [me.drakeet.support:toastcompat:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/7d3b805ed200bb17f67892ef0cf3f818/transformed/jetified-toastcompat-1.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/4c9fed62ae22585d7d485e46efac2445/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/4c9fed62ae22585d7d485e46efac2445/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/7cace23c505c56f59f831d9248a71874/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/7cace23c505c56f59f831d9248a71874/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.felHR85:UsbSerial:6.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/babf950ef8a494b7eb830ac7e575e53d/transformed/jetified-UsbSerial-6.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.felHR85:UsbSerial:6.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/babf950ef8a494b7eb830ac7e575e53d/transformed/jetified-UsbSerial-6.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [:pngquant-android] /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/pngquant-android/build/.transforms/9fb7e53ce9b0c389a1a31b45f46cafd9/transformed/jetified-pngquant-android-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:pngquant-android] /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/pngquant-android/build/.transforms/9fb7e53ce9b0c389a1a31b45f46cafd9/transformed/jetified-pngquant-android-release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/17bd3ab7b0ab86e86176ae3a7f5bc6a0/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/17bd3ab7b0ab86e86176ae3a7f5bc6a0/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/89418e5042daabe0d338c55226dd4823/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/89418e5042daabe0d338c55226dd4823/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5a2dd917b188abe63869c0d334b023f/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5a2dd917b188abe63869c0d334b023f/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/41d086f0da4816b78026dc35437b3668/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/41d086f0da4816b78026dc35437b3668/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/dorcaslanyero/.gradle/caches/transforms-3/c36307e62ae5a59279844572f3109cf2/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/dorcaslanyero/.gradle/caches/transforms-3/c36307e62ae5a59279844572f3109cf2/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/5bf253ee6446bb7f21f1a7ef13cf5fc9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/5bf253ee6446bb7f21f1a7ef13cf5fc9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f5fed9a294d32ef146a310c7508bc7/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f5fed9a294d32ef146a310c7508bc7/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b56d84b0d77514b5bb0a8085b0f0c2b3/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b56d84b0d77514b5bb0a8085b0f0c2b3/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e8b4644fbbf71146727a59968f0d2d5c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e8b4644fbbf71146727a59968f0d2d5c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/71bb914ae2bb75d38f70ec9c00d9c338/transformed/jetified-play-services-vision-common-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/71bb914ae2bb75d38f70ec9c00d9c338/transformed/jetified-play-services-vision-common-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/b13c67e9a91e14beeb2638965fb3ec1b/transformed/jetified-play-services-clearcut-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/b13c67e9a91e14beeb2638965fb3ec1b/transformed/jetified-play-services-clearcut-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d81d17931aadcd6e4c6ba8acfab167d6/transformed/jetified-play-services-flags-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d81d17931aadcd6e4c6ba8acfab167d6/transformed/jetified-play-services-flags-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d6336f681efeb93f9c1e127f5a7a191b/transformed/jetified-play-services-phenotype-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d6336f681efeb93f9c1e127f5a7a191b/transformed/jetified-play-services-phenotype-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d096ca0eb2216ba2655cf1bfb53082aa/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d096ca0eb2216ba2655cf1bfb53082aa/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/f88f3f70a0eae9a3b503870a6043a4bd/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/f88f3f70a0eae9a3b503870a6043a4bd/transformed/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8e64ca03c28699dcbda0a491663ac133/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8e64ca03c28699dcbda0a491663ac133/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2196ec48a2ad43f7c3a7b2e4f7bd56f5/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2196ec48a2ad43f7c3a7b2e4f7bd56f5/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/3a662f98a6ce4b7b7fba3661c7b72830/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/3a662f98a6ce4b7b7fba3661c7b72830/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b29432626866ae8af537df211276f250/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b29432626866ae8af537df211276f250/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/35ac2ca39fb97301687e09210c597878/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/35ac2ca39fb97301687e09210c597878/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/dorcaslanyero/.gradle/caches/transforms-3/3caa29d49f050f94628a324e2a8889b9/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/dorcaslanyero/.gradle/caches/transforms-3/3caa29d49f050f94628a324e2a8889b9/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8b8a227373cc5bfa949db3845c5fdbc2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8b8a227373cc5bfa949db3845c5fdbc2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2696c2cecfb4eeeb73c7cfd1004446b3/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2696c2cecfb4eeeb73c7cfd1004446b3/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/5f2d569cf0fa33d2f5be13c3d19a80dd/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/5f2d569cf0fa33d2f5be13c3d19a80dd/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/5ec5b5f17c71fb1180396621a5ce0021/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/5ec5b5f17c71fb1180396621a5ce0021/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/57773692f1f67c63edd8cd079269e5ae/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/57773692f1f67c63edd8cd079269e5ae/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8cd9483714ef2f3897b6e3e9642d033c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8cd9483714ef2f3897b6e3e9642d033c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/d9deb28c2a8319eef2a3091209cd6ef9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/d9deb28c2a8319eef2a3091209cd6ef9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/78f979f458386384f90f1dfcd8886d46/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/78f979f458386384f90f1dfcd8886d46/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6180dca785b165aef3313080b5d8c899/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6180dca785b165aef3313080b5d8c899/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/35df6fcacbf76be5f51311fedd134c82/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/35df6fcacbf76be5f51311fedd134c82/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b33ad4568ec92dd2c89b845b422ab914/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b33ad4568ec92dd2c89b845b422ab914/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/1af2cdf86df8eba46bdc2f6321aa0eb8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/1af2cdf86df8eba46bdc2f6321aa0eb8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/5ba3a24e5434b43622670af32c529e10/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/5ba3a24e5434b43622670af32c529e10/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/be6959be07f563337def10b4dc2f5c22/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/be6959be07f563337def10b4dc2f5c22/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/fcab3a6592b44e67e96951612bdcb99f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/fcab3a6592b44e67e96951612bdcb99f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/4b4f9fe11d284788c5465f32d8965d30/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/4b4f9fe11d284788c5465f32d8965d30/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/91051a586aa4062eaa16448d65b1c0e7/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/91051a586aa4062eaa16448d65b1c0e7/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/84972827205ee303b5c51056a68332cd/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/84972827205ee303b5c51056a68332cd/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/7d39ebe4adf729027e7149f691b25e74/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/7d39ebe4adf729027e7149f691b25e74/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/bedb83cd2ee1d91e37b3d9150ad9564b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/bedb83cd2ee1d91e37b3d9150ad9564b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2d2214f887e583dab2cbc883ce8706fa/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2d2214f887e583dab2cbc883ce8706fa/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/9840354c91985eebd825440c7b1ca88a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/9840354c91985eebd825440c7b1ca88a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/3f7ec1d9b943c7a735b88bc8b8b70de5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/3f7ec1d9b943c7a735b88bc8b8b70de5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/fa31b8144f96954f4a613676fe73fdf1/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/fa31b8144f96954f4a613676fe73fdf1/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/74910c9ec9cf2168c0260cf9873883b4/transformed/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/74910c9ec9cf2168c0260cf9873883b4/transformed/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b3cdd2562759dff0bdf82637c36ec081/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/b3cdd2562759dff0bdf82637c36ec081/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/02757fdd5982c458bbbac28d5523cf25/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/02757fdd5982c458bbbac28d5523cf25/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/0e624c91d86477c7225bbd7325063d89/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/0e624c91d86477c7225bbd7325063d89/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/47a8be542c8cb56f2d00abc417b471b9/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/47a8be542c8cb56f2d00abc417b471b9/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/0161c3d170f99a502f072882465eeb08/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/0161c3d170f99a502f072882465eeb08/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/1ad1a1f0a410f5d5cd15d10b786b722d/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/1ad1a1f0a410f5d5cd15d10b786b722d/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/68dbc24a2450a9b25eb014465b6ca05f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/68dbc24a2450a9b25eb014465b6ca05f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+		INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+		INJECTED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:69:13-71:58
+	android:resource
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:71:17-55
+	android:name
+		ADDED from /Users/dorcaslanyero/Desktop/SDGCODE/StudioProject/Autotrans/AutoTran/AndroidManifest.xml:70:17-67
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/fcab3a6592b44e67e96951612bdcb99f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/fcab3a6592b44e67e96951612bdcb99f/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:33:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:30:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:34:13-36:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:36:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:35:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/65f4fe2dedf164095f06e820395faab4/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/a02ebe144dd25933564c6831e036f456/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:16:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:15:13-84
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.3.3] /Users/dorcaslanyero/.gradle/caches/transforms-3/6ecb86743097e3e02e9c217b1918c32f/transformed/jetified-firebase-crashlytics-18.3.3/AndroidManifest.xml:18:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/ed56c01177caf9b3d255c4b40e1562e4/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/dorcaslanyero/.gradle/caches/transforms-3/3ec61bcc14a25f208a4f9a64e5aca962/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8e64ca03c28699dcbda0a491663ac133/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8e64ca03c28699dcbda0a491663ac133/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2196ec48a2ad43f7c3a7b2e4f7bd56f5/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2196ec48a2ad43f7c3a7b2e4f7bd56f5/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/6c369da0d23fdb97c7133291d33fee75/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/77fe173d00667a7fc7c2b17dba43ed51/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/551a9d76f89d5e0617694912d051651e/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/e112e3d1fbb4efb401d76a87294d2e79/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/2a46307caede3e87bd4173a217df223a/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d096ca0eb2216ba2655cf1bfb53082aa/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d096ca0eb2216ba2655cf1bfb53082aa/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d096ca0eb2216ba2655cf1bfb53082aa/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/dorcaslanyero/.gradle/caches/transforms-3/d096ca0eb2216ba2655cf1bfb53082aa/transformed/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8b8a227373cc5bfa949db3845c5fdbc2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8b8a227373cc5bfa949db3845c5fdbc2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/8b8a227373cc5bfa949db3845c5fdbc2/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/dorcaslanyero/.gradle/caches/transforms-3/c5cc9dbd0b080c815a4a06133a49b093/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79

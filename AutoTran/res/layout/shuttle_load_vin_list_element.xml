@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffefefef"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="65"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/ACTIVITY_TITLE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:paddingTop="4dp"
+                android:textColor="#666"
+                android:paddingLeft="15dp"
+                android:paddingBottom="3dp"
+                android:text="VIN" />
+
+            <TextView
+                android:id="@+id/ACTIVITY_PROMPT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lite_red"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:paddingBottom="3dp"
+                android:paddingLeft="15dp" />
+
+        </LinearLayout>
+        <!--
+        <TextView
+            android:id="@+id/tvline_vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_width="0dip"
+            android:layout_weight=".5"
+            android:layout_height="match_parent"
+            android:background="@color/lite_red"/>
+
+                <LinearLayout
+                    android:id="@+id/truckPosition"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_width = "0dip"
+                    android:layout_weight="19.5"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="3dp"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="3dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:clickable="true">
+
+                    <TextView
+                        android:id="@+id/LoadPosition"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:textColor="#000"
+                        android:text="Position: unknown" />
+
+                    <TextView
+                        android:id="@+id/LoadOrientation"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:paddingTop="5dp"
+                        android:textColor="#000" />
+
+                </LinearLayout>
+            -->
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:background="@drawable/red_button_bg"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:gravity="center|center_vertical"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvline"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="3dp"
+        android:layout_height="1dip"
+        android:background="@color/lite_red" />
+
+</RelativeLayout>

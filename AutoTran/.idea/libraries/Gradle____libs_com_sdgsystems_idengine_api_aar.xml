@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/com.sdgsystems.idengine.api.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1441c9c0301ef735c9ed9cea6fde1775/transformed/jetified-com.sdgsystems.idengine.api/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1441c9c0301ef735c9ed9cea6fde1775/transformed/jetified-com.sdgsystems.idengine.api/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1441c9c0301ef735c9ed9cea6fde1775/transformed/jetified-com.sdgsystems.idengine.api/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

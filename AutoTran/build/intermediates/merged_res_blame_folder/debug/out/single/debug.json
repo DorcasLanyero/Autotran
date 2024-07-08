@@ -1,0 +1,1174 @@
+[
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_yard_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/yard_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_dispatch_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/dispatch_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/menu_notes.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/menu/notes.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_information.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_information.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_yard_exit_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/yard_exit_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_black_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/black_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_coaching_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/coaching_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_scrollbar_thumb_small.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/scrollbar_thumb_small.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/anim_indeterminate_progress.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/anim/indeterminate_progress.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_lookup_img.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/lookup_img.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_coaching_progress_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/coaching_progress_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_button_bg.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/button_bg.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_communication_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/communication_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_coaching_bg_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/coaching_bg_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_preload_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/preload_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_small_button_bg_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/small_button_bg_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/menu_pre_load_signature.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/menu/pre_load_signature.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_yard_exit_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/yard_exit_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_dispatch_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/dispatch_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_no_phone_wosign.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/no_phone_wosign.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_location_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/location_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_check_scanner.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_check_scanner.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_receive_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/receive_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_button_bg_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/button_bg_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_full_name.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_full_name.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_return_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/return_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_textfield.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/textfield.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_communications.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_communications.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_return_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/return_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_maon_bg.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/maon_bg.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_vin_list_select.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_vin_list_select.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_piccolo_access_needed.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_piccolo_access_needed.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_return_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/return_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_communication_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/communication_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_countdown_display.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/countdown_display.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_yard_exit_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/yard_exit_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_clearload.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_clearload.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_delivery_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/delivery_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_vin_manual_entry.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/vin_manual_entry.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_dispatch_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/dispatch_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_receive_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/receive_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_sti_comments.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_sti_comments.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_dropdown.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/dropdown.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_vehicle_position.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_vehicle_position.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_utilities_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/utilities_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dealer_eta_item.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dealer_eta_item.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_coaching_complete_bg_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/coaching_complete_bg_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/menu_scan_vindelivery.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/menu/scan_vindelivery.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_lot_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/lot_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_yard_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/yard_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_code_enter_string.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/code_enter_string.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_loss_and_damage.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_loss_and_damage.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_top_bar_bg.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/top_bar_bg.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_menu_icon_dealer.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/menu_icon_dealer.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_shuttle_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/shuttle_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_preload_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/preload_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_button_bg_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/button_bg_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_shuttle_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/shuttle_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_info_sign_bg.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/info_sign_bg.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_textfield_white_small.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/textfield_white_small.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_shuttle_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/shuttle_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_yard_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/yard_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_driver_message_list.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/driver_message_list.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_lot_code_message.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_lot_code_message.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_utilities.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_utilities.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_dispatch_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/dispatch_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_communication_buttion.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/communication_buttion.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_trending_alerts.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_trending_alerts.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_utilities_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/utilities_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_utilities_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/utilities_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_lot_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/lot_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_return_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/return_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_no_phone_use_d_wosign_white.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/no_phone_use_d_wosign_white.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_back_button_dealer.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/back_button_dealer.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_message_list.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/message_list.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_utilities_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/utilities_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/menu_rejection_vin.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/menu/rejection_vin.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_preload_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/preload_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_lot_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/lot_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_scan_load.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/scan_load.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_spinner_48_outer_holo.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/spinner_48_outer_holo.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_damage_code_list_second.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/damage_code_list_second.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/menu_vindetails.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/menu/vindetails.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_dialog_overlay.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_dialog_overlay.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_button_small_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/button_small_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_preload_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/preload_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_dorts_comments.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_dorts_comments.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_date_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/date_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_scan_supervisor_code.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_scan_supervisor_code.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_location_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/location_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_receive_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/receive_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_btn_dlt.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/btn_dlt.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_utilities_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/utilities_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_black_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/black_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_yard_exit_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/yard_exit_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_vin_ocr.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_vin_ocr.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_arrow.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/arrow.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_delivery_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/delivery_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_no_phone_use_sm.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/no_phone_use_sm.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_select_box.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/select_box.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-mdpi_ic_launcher_autotran.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-mdpi/ic_launcher_autotran.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_yard_exit_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/yard_exit_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_upload_status.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_upload_status.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_dispatch_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/dispatch_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_idengine_device_choice_textview.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/idengine_device_choice_textview.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_red_button_bg.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/red_button_bg.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_splash.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_notes.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_notes.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_driving_mode.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_driving_mode.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_utilities_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/utilities_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_inspect_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/inspect_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_vin_list_element_small.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/vin_list_element_small.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_ic_gps_off_24px.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/ic_gps_off_24px.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_dashboard.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_shuttle_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/shuttle_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_lot_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/lot_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_button_small_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/button_small_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_small_button_bg.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/small_button_bg.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_return_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/return_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_receive_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/receive_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_scrollbar_thumb.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/scrollbar_thumb.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_create_shuttle_load.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_create_shuttle_load.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_dispatch_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/dispatch_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/menu_review_vin.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/menu/review_vin.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_edit_text_outline.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/edit_text_outline.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_vin_inspection.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_vin_inspection.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_tips.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_tips.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_vehicle_inspection.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_vehicle_inspection.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_hand_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/hand_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_delivery_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/delivery_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_horizontal_list_with_color_text.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/horizontal_list_with_color_text.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_truck_number_override.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_truck_number_override.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_receive_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/receive_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_damage_summary.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_damage_summary.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_vin_inventory.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_vin_inventory.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_yard_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/yard_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_utilities_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/utilities_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_expandable_code_list_item.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/expandable_code_list_item.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_delivery_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/delivery_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_damage_popup_list_element.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/damage_popup_list_element.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_shuttle_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/shuttle_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_shuttle_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/shuttle_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/menu_supervisor_comment.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/menu/supervisor_comment.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_login.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_customprogressdialog.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/customprogressdialog.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_or.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/or.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_inspect_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/inspect_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_shuttle_load_vin_list_element.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/shuttle_load_vin_list_element.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_logo.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/logo.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_spinner_48_inner_holo.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/spinner_48_inner_holo.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_lot_locate.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_lot_locate.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_return_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/return_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_delivery_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/delivery_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_code_list.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/code_list.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_return_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/return_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_communication_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/communication_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/xml_device_filter.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/xml/device_filter.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_hand_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/hand_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_setting_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/setting_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_error.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_error.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_lookup.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/lookup.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_shuttle_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/shuttle_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_lot_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/lot_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_preload_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/preload_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_piccolo_permission_dialog.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/piccolo_permission_dialog.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_ic_launcher_autotran.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/ic_launcher_autotran.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_round_corner_layout.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/round_corner_layout.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_lot_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/lot_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dealer_list_element.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dealer_list_element.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_snack_message_popup.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/snack_message_popup.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_idengine_scan_test.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_idengine_scan_test.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_generic_list_element.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/generic_list_element.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_set_defaults.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_set_defaults.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_yellow_box.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/yellow_box.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_signature_view.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_signature_view.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_safe_delivery.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_safe_delivery.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_spinner_item.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/spinner_item.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_communication_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/communication_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_communication_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/communication_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_ic_gps_not_fixed_24px.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/ic_gps_not_fixed_24px.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_return_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/return_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_ic_gps_fixed_24px.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/ic_gps_fixed_24px.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/menu_notes_list.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/menu/notes_list.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_unread_messages_count_background.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/unread_messages_count_background.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_trailer.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/trailer.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_shuttle_build_load.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_shuttle_build_load.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_menu_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/menu_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_damage_code_list.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/damage_code_list.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_yard_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/yard_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_delivery_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/delivery_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_lot_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/lot_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_inspect_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/inspect_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_back_button.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/back_button.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_lot_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/lot_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_no_phone_use_lg.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/no_phone_use_lg.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_delivery_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/delivery_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_stroked_circular_shape.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/stroked_circular_shape.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_supplemental_notes.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_supplemental_notes.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_date_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/date_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dealer_relay_point.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dealer_relay_point.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_receive_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/receive_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_yard_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/yard_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_inspect_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/inspect_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_messages.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_messages.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_preload_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/preload_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_image_view.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_image_view.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_inspect_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/inspect_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_dispatch.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_dispatch.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_yard_exit_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/yard_exit_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_maon_bg_blk.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/maon_bg_blk.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_scan.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/scan.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_dealer_messages.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_dealer_messages.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_red_button_bg_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/red_button_bg_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_shuttle_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/shuttle_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_notes_list.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_notes_list.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/xml_provider_paths.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_vin_select.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_vin_select.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_expandable_code_list_group.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/expandable_code_list_group.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_dealer_unavailable.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_dealer_unavailable.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_button_small.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/button_small.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_upload_count_background.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/upload_count_background.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_load_or_delivery_list.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_load_or_delivery_list.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_communication_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/communication_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_dispatch_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/dispatch_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_dealer_details.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_dealer_details.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_dispatch_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/dispatch_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_inspect_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/inspect_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_high_claims_footer.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/high_claims_footer.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_delivery_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/delivery_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_dispatch_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/dispatch_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_preload_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/preload_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_receive_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/receive_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/menu_dealer_messages.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/menu/dealer_messages.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_message.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_message.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_receive_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/receive_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_rejection_vin.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_rejection_vin.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/menu_dealer_details.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/menu/dealer_details.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_black_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/black_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_utilities_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/utilities_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_coaching_complete_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/coaching_complete_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_ic_edit_black_24dp.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/ic_edit_black_24dp.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/menu_clear_positions.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/menu/clear_positions.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_communication_buttion.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/communication_buttion.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_small_button_bg_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/small_button_bg_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_scan_bg.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/scan_bg.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_dlt_btn.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/dlt_btn.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_delivery_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/delivery_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_splash.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/splash.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_yard_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/yard_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_callback_number.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_callback_number.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_edit_text_outline_red.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/edit_text_outline_red.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_utilities_button_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/utilities_button_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_inspect_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/inspect_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_preload_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/preload_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_ic_launcher_autotran.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/ic_launcher_autotran.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_three_text_view.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/three_text_view.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_inspect_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/inspect_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_shuttle_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/shuttle_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_problem_report.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_problem_report.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/menu_damage_list.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/menu/damage_list.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_admin.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_admin.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_red_button_bg_default.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/red_button_bg_default.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_signature.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_signature.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_load_or_delivery_element.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/load_or_delivery_element.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_yard_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/yard_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_return_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/return_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_yard_exit_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/yard_exit_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_vin_list_element.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/vin_list_element.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_high_claims_audit.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_high_claims_audit.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_check_list.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/check_list.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_inspect_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/inspect_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dealer_list_element_small.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dealer_list_element_small.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_yard_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/yard_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_vin_details.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_vin_details.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_damage_code_enter.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/damage_code_enter.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_yard_exit_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/yard_exit_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_yard_exit_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/yard_exit_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_info_sign_border.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/info_sign_border.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_code_enter.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/code_enter.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable_info_dialog_bg.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable/info_dialog_bg.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_dealer_confirm.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_dealer_confirm.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_expandable_code_list.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/expandable_code_list.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_info_icon.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/info_icon.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_signature_view_large.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_signature_view_large.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_lot_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/lot_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_damage_list_element.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/damage_list_element.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-sw600dp_receive_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-sw600dp/receive_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-hdpi_communication_button.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-hdpi/communication_button.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/drawable-xhdpi_preload_button_pressed.png.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/drawable-xhdpi/preload_button_pressed.png"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_activity_shuttle_vin.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/activity_shuttle_vin.xml"
+    },
+    {
+        "merged": "com.cassens.autotran-merged_res-29:/layout_dialog_forward_website.xml.flat",
+        "source": "com.cassens.autotran-AutoTran-30:/layout/dialog_forward_website.xml"
+    }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="lite_gray">#676767</color>
+    <color name="lite_lite_gray">#b7b7b7</color>
+    <color name="lite_lite_lite_gray">#eeeeee</color>
+    <color name="black">#000000</color>
+    <color name="lite_red">#ba2c28</color>
+    <color name="green">#ff008000</color>
+    <color name="custom_green">#009000</color>
+    <color name="forest_green">#ff228b22</color>
+    <color name="dark_green">#ff006400</color>
+    <color name="dark_orange">#ffff8c00</color>
+    <color name="amber">#ffffc107</color>
+    <color name="lite_yellow">#FFFF90</color>
+    <color name="yellow">#FFFF00</color>
+</resources>

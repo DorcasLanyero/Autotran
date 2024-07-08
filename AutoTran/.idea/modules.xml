@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AutoTran.iml" filepath="$PROJECT_DIR$/.idea/modules/AutoTran.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AutoTran.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/AutoTran.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AutoTran.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AutoTran.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pngquant-android/AutoTran.pngquant-android.iml" filepath="$PROJECT_DIR$/.idea/modules/pngquant-android/AutoTran.pngquant-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AutoTran.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/AutoTran.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ACTIVITY_TITLE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="#efefef"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="3dp"
+        android:text="Load Number"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#666666"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ACTIVITY_TITLE"
+        android:layout_alignParentLeft="true"
+        android:background="#efefef"
+        android:paddingLeft="15dp"
+        android:text="Dealer Name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/lite_red"
+        android:textSize="12sp"
+        android:textStyle="bold" 
+         />
+    
+    
+    
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/arrow" />
+    
+    
+    <TextView 
+        android:id="@+id/tvline"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="3dp"
+        android:layout_height="1dip"
+        android:background="@color/lite_red"/>
+
+</RelativeLayout>

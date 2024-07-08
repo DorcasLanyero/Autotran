@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffefefef"
+    android:orientation="vertical" >
+
+    <!-- Put this first, because the higher in the file, the lower the Z-order -->
+    <ImageView
+        android:id="@+id/backgroundIcon"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coaching_bg_icon" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    
+        <LinearLayout
+            android:id="@+id/itemLayout"
+            android:orientation="vertical"
+            android:layout_height = "wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="85"
+            android:clickable="true"
+            android:background="#00000000">
+
+            <TextView
+                android:id="@+id/primaryTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:paddingLeft="15dp"
+                android:paddingBottom="3dp"
+                android:text="Vin Details"
+                android:textColor="#666666"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/secondaryTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:paddingLeft="15dp"
+                android:text="Dealer Name"
+                android:textColor="@color/lite_red"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/infoIcon"
+            style="@style/DealerInfo"
+            android:layout_height="50dp"
+            android:layout_width ="0dp"
+            android:layout_weight="15"
+            android:background="@drawable/button_bg"
+            android:text="@string/dealerInfoIconDefault"
+            android:textSize="11sp"
+            android:textColor="@color/lite_lite_lite_gray"
+            android:gravity="center_vertical|center_horizontal" />
+    </LinearLayout>
+    
+    <TextView 
+        android:id="@+id/separatorLine"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="3dp"
+        android:layout_height="1dip"
+        android:background="@color/lite_red"/>
+
+</RelativeLayout>

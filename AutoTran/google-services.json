@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "583374961284",
+    "firebase_url": "https://moolahpaymentbridge.firebaseio.com",
+    "project_id": "moolahpaymentbridge",
+    "storage_bucket": "moolahpaymentbridge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583374961284:android:6d7cbd85153dd0cca560d1",
+        "android_client_info": {
+          "package_name": "com.cassens.autotran.driver.prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583374961284-c99e96gl64ifcc9u6q07khd7cn9bcgiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzRjhrA7b1d0ZS9l-EiuAFaDQiwTWM1pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583374961284-c99e96gl64ifcc9u6q07khd7cn9bcgiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

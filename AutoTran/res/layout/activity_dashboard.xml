@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/parentLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/maon_bg"
+	android:paddingRight="0dp"
+	android:paddingBottom="0dp">
+
+	<LinearLayout
+		android:id="@+id/dashboard_top_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/top_bar_bg"
+		android:gravity="center">
+
+		<LinearLayout
+			android:id="@+id/dashboard_title_area"
+			android:layout_width="347dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="left"
+			android:layout_weight="1"
+			android:background="@drawable/top_bar_bg"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/ACTIVITY_TITLE"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:paddingLeft="10dp"
+				android:paddingTop="10dp"
+				android:text="Dashboard"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textSize="20sp"
+				android:textStyle="bold" />
+
+
+			<TextView
+				android:id="@+id/ACTIVITY_SUBTITLE"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:paddingLeft="10dp"
+				android:paddingTop="3dp"
+				android:paddingBottom="8dp"
+				android:text="Driver"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textSize="14sp"
+				android:textStyle="normal" />
+
+		</LinearLayout>
+
+		<ImageView
+			android:id="@+id/imageView1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="0dp"
+			android:onClick="getMessages"
+			android:paddingRight="2dp"
+			android:paddingBottom="0dp"
+			android:src="@android:drawable/ic_dialog_email" />
+
+		<TextView
+			android:id="@+id/message_counter"
+			android:layout_width="20dp"
+			android:layout_height="20dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginBottom="14dp"
+			android:background="@drawable/unread_messages_count_background"
+			android:gravity="center"
+			android:paddingLeft="2dp"
+			android:paddingRight="2dp"
+			android:text="2"
+			android:textColor="@color/Maroon"
+			android:textFontWeight="12" />
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/dashboard_top_bar">
+
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:gravity="center">
+
+			<HorizontalScrollView
+				android:id="@+id/dashboard_tile_scroll_area"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent">
+
+				<RelativeLayout
+					android:id="@+id/dashboard_tile_area"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center">
+
+					<androidx.gridlayout.widget.GridLayout
+						android:id="@+id/dashboard_grid"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerInParent="true"
+						android:layout_marginTop="10dp"
+						app:columnCount="3"
+						app:layout_gravity="fill_horizontal"
+						app:orientation="horizontal"
+						app:rowCount="4">
+
+						<RelativeLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginBottom="20dp"
+							android:gravity="center">
+
+							<ImageView
+								android:id="@+id/imageView2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:onClick="dispatch"
+								android:src="@drawable/dispatch_button" />
+						</RelativeLayout>
+
+						<RelativeLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginBottom="20dp"
+							android:gravity="center">
+
+							<ImageView
+								android:id="@+id/imageView3"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:onClick="preload"
+								android:src="@drawable/preload_button" />
+
+							<RelativeLayout
+								android:id="@+id/preloadUploadOverlay"
+								android:layout_width="20dp"
+								android:layout_height="20dp"
+								android:layout_marginLeft="5dp"
+								android:layout_marginTop="5dp"
+								android:background="@drawable/upload_count_background">
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_centerInParent="true"
+									android:color="@color/white"
+									android:text="1" />
+							</RelativeLayout>
+						</RelativeLayout>
+
+						<RelativeLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginBottom="20dp"
+							android:gravity="center">
+
+							<ImageView
+								android:id="@+id/imageView4"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:onClick="delivery"
+								android:src="@drawable/delivery_button" />
+
+							<RelativeLayout
+								android:id="@+id/deliveryUploadOverlay"
+								android:layout_width="20dp"
+								android:layout_height="20dp"
+								android:layout_marginLeft="5dp"
+								android:layout_marginTop="5dp"
+								android:background="@drawable/upload_count_background">
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_centerInParent="true"
+									android:color="@color/white"
+									android:text="1" />
+							</RelativeLayout>
+						</RelativeLayout>
+
+						<RelativeLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginBottom="20dp"
+							android:gravity="center">
+
+							<ImageView
+								android:id="@+id/ImageView01"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:onClick="shuttle"
+								android:src="@drawable/shuttle_button" />
+
+							<RelativeLayout
+								android:id="@+id/shuttleLoadUploadOverlay"
+								android:layout_width="20dp"
+								android:layout_height="20dp"
+								android:layout_marginLeft="5dp"
+								android:layout_marginTop="5dp"
+								android:background="@drawable/upload_count_background">
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_centerInParent="true"
+									android:color="@color/white"
+									android:text="1" />
+							</RelativeLayout>
+						</RelativeLayout>
+
+						<RelativeLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginBottom="20dp"
+							android:gravity="center">
+
+							<ImageView
+								android:id="@+id/ImageView02"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:onClick="yardI"
+								android:src="@drawable/yard_button" />
+
+							<RelativeLayout
+								android:id="@+id/yardInventoryUploadOverlay"
+								android:layout_width="20dp"
+								android:layout_height="20dp"
+								android:layout_marginLeft="5dp"
+								android:layout_marginTop="5dp"
+								android:background="@drawable/upload_count_background">
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_centerInParent="true"
+									android:color="@color/white"
+									android:text="1" />
+							</RelativeLayout>
+						</RelativeLayout>
+
+						<RelativeLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginBottom="20dp"
+							android:gravity="center">
+
+							<ImageView
+								android:id="@+id/ImageView03"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:onClick="lot"
+								android:src="@drawable/lot_button" />
+
+							<RelativeLayout
+								android:id="@+id/lotLocateUploadOverlay"
+								android:layout_width="20dp"
+								android:layout_height="20dp"
+								android:layout_marginLeft="5dp"
+								android:layout_marginTop="5dp"
+								android:background="@drawable/upload_count_background">
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_centerInParent="true"
+									android:color="@color/white"
+									android:text="1" />
+							</RelativeLayout>
+						</RelativeLayout>
+
+						<!-- These two buttons are currently unused.
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center" >
+                        <ImageView
+                            android:id="@+id/ImageView04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/yard_exit_button" />
+                        <RelativeLayout
+                            android:id="@+id/yardExitUploadOverlay"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/upload_count_background"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp" >
+
+                            <TextView
+                                android:color="@color/white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="1" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center" >
+                        <ImageView
+                            android:id="@+id/ImageView05"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/return_button" />
+                        <RelativeLayout
+                            android:id="@+id/returnToPlantUploadOverlay"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/upload_count_background"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp" >
+
+                            <TextView
+                                android:color="@color/white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="1" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+            -->
+
+						<RelativeLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginBottom="20dp"
+							android:gravity="center">
+
+							<ImageView
+								android:id="@+id/ImageView06"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:onClick="inspect"
+								android:src="@drawable/inspect_button" />
+
+							<RelativeLayout
+								android:id="@+id/inspectVehicleUploadOverlay"
+								android:layout_width="20dp"
+								android:layout_height="20dp"
+								android:layout_marginLeft="5dp"
+								android:layout_marginTop="5dp"
+								android:background="@drawable/upload_count_background">
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_centerInParent="true"
+									android:color="@color/white"
+									android:text="1" />
+							</RelativeLayout>
+						</RelativeLayout>
+
+						<!-- These two buttons are currently unused.
+             <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center" >
+                <ImageView
+                    android:id="@+id/ImageView09"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/receive_button" />
+                <RelativeLayout
+                    android:id="@+id/receiveVehicleUploadOverlay"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/upload_count_background"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp" >
+
+                    <TextView
+                        android:color="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="1" />
+                </RelativeLayout>
+            </RelativeLayout>
+    -->
+
+						<RelativeLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginBottom="20dp"
+							android:gravity="center">
+
+							<ImageView
+								android:id="@+id/ImageView07"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:onClick="communications"
+								android:src="@drawable/communication_button" />
+						</RelativeLayout>
+
+						<RelativeLayout
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="10dp"
+							android:layout_marginRight="10dp"
+							android:layout_marginBottom="20dp"
+							android:gravity="center">
+
+							<ImageView
+								android:id="@+id/ImageView08"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:onClick="utilities"
+								android:src="@drawable/utilities_button" />
+						</RelativeLayout>
+
+
+					</androidx.gridlayout.widget.GridLayout>
+
+
+				</RelativeLayout>
+			</HorizontalScrollView>
+
+			<TextView
+				android:id="@+id/ContactInfoTv"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/dashboard_tile_scroll_area"
+				android:layout_marginBottom="0dp"
+				android:gravity="center"
+				android:textColor="@color/black"
+				android:visibility="visible"
+				android:textSize="14sp" />
+
+
+			<LinearLayout
+				android:id="@+id/BottomStatusArea"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="8dp"
+				android:layout_marginBottom="8dp"
+				android:layout_below="@id/ContactInfoTv"
+				android:gravity="center_horizontal"
+				android:layout_alignParentBottom="true"
+				android:visibility="visible"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/DockedStatus"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:layout_marginBottom="5dp"
+					android:layout_centerHorizontal="true"
+					android:gravity="center"
+					android:visibility="invisible"
+					android:textColor="@color/black"
+					android:textStyle="italic|bold"
+					android:text=""
+					android:textSize="14sp" />
+
+				<TextView
+					android:id="@+id/LocationMessageBox"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:layout_marginBottom="10dp"
+					android:text="stuff"
+					android:layout_gravity="left"
+					android:textColor="@color/lite_gray"
+					android:textSize="10sp"
+					android:textStyle="normal"
+					android:visibility="gone" />
+			</LinearLayout>
+
+		</RelativeLayout>
+	</ScrollView>
+
+</RelativeLayout>
